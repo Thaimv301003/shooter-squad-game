@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e6fc4ba1b422640a16d69ec65c07ee, type: 3}
+  m_Name: BugReport
+  m_EditorClassIdentifier: 
+  configSource: {fileID: 11400000, guid: 76cfd7b0d582a09479ac16e6041473c1, type: 2}
+  BugSearchTerm: 
+  bugList:
+  - ID: BUG-1276
+    BugName: dada
+    Description: dadada
+    Type: 1
+    Status: 1
+    UnityVersion: 6000.3.3f1
+    Uploader: linhnh@bfungame.net
+    ReportTime: 09/01/2026 15:18
+    FixSolution: '<color=#cccccc>[09/01/2026 15:18 PM]</color> <color=#ffffff><b>CREATED</b></color>
+      by <color=#ffffff><b>linhnh@bfungame.net</b></color>:
+
+      New issue reported.'
+    Fixer: linhnh@bfungame.net
+    RowIndex: 4
+    AttachmentIDs: 
+  - ID: BUG-2407
+    BugName: DDD
+    Description: DDD
+    Type: 0
+    Status: 2
+    UnityVersion: 2022.3.62f1
+    Uploader: linhnh@bfungame.net
+    ReportTime: 04/12/2025 14:18
+    FixSolution: "<color=#cccccc>[04/12/2025 14:18 PM]</color> <color=#ffffff><b>CREATED</b></color>
+      by <color=#ffffff><b>linhnh@bfungame.net</b></color>:\nNew issue reported.\n\n----------------------------------------\n<color=#cccccc>[15/12/2025
+      17:58 PM]</color> <color=#ffa500><b>SUBMITTED</b></color> by <color=#ffffff><b>tungpq@bfungame.net</b></color>:\nT\xF4i
+      \u0111\xE3 v\xE0o \u0111\xE2y xem"
+    Fixer: linhnh@bfungame.net, tungpq@bfungame.net
+    RowIndex: 3
+    AttachmentIDs: 170SW7LWf4Vgc9rNqMh-q1ryArY0G7yOH
+  - ID: BUG-3883
+    BugName: Hello
+    Description: DDDDD
+    Type: 0
+    Status: 3
+    UnityVersion: 2022.3.62f1
+    Uploader: linhnh@bfungame.net
+    ReportTime: 04/12/2025 14:16
+    FixSolution: '<color=#cccccc>[04/12/2025 14:16 PM]</color> <color=#ffffff><b>CREATED</b></color>
+      by <color=#ffffff><b>linhnh@bfungame.net</b></color>:
+
+      New issue reported.
+
+
+      ----------------------------------------
+
+      <color=#cccccc>[04/12/2025
+      14:17 PM]</color> <color=#ffa500><b>SUBMITTED</b></color> by <color=#ffffff><b>linhnh@bfungame.net</b></color>:
+
+      Suaaa
+
+
+      ----------------------------------------
+
+      <color=#cccccc>[04/12/2025
+      14:17 PM]</color> <color=#00ff00><b>APPROVED</b></color> by <color=#ffffff><b>linhnh@bfungame.net</b></color>:
+
+      fffff'
+    Fixer: linhnh@bfungame.net
+    RowIndex: 2
+    AttachmentIDs: 

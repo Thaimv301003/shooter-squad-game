@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "425796947602",
+    "project_id": "r1--bridge-siege",
+    "storage_bucket": "r1--bridge-siege.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425796947602:android:d0ac786642d430e0b5604b",
+        "android_client_info": {
+          "package_name": "com.r1.bridge.siege.game.shooting"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLH1nTKZNmIJhkBggveHRPxlmF_1yO0HQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

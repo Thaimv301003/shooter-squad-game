@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb8ce6cfd47dda4b86dc1eeff834ca4, type: 3}
+  m_Name: Ads Setting
+  m_EditorClassIdentifier: 
+  _progress: 1
+  Packages:
+  - DisplayName: AppsFlyer Manager
+    PackageName: com.thelegends.appsflyer.manager
+    SelectedVersion: 1.0.8
+    InstalledVersion: 1.0.8
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: EditorAttributes
+    PackageName: com.v0lt.editor-attributes
+    SelectedVersion: 2.9.1
+    InstalledVersion: 2.9.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Ads Manager
+    PackageName: com.thelegends.ads.manager
+    SelectedVersion: 1.1.17
+    InstalledVersion: 1.1.17
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Firebase Manager
+    PackageName: com.thelegends.firebase.manager
+    SelectedVersion: 1.0.8
+    InstalledVersion: 1.0.8
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Thread Disapatcher
+    PackageName: com.pimdewitte.unitymainthreaddispatcher
+    SelectedVersion: 1.0.0
+    InstalledVersion: 1.0.0
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Firebase Core
+    PackageName: com.google.firebase.app
+    SelectedVersion: 12.10.1
+    InstalledVersion: 12.10.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Firebase Analytics
+    PackageName: com.google.firebase.analytics
+    SelectedVersion: 12.10.1
+    InstalledVersion: 12.10.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Firebase Remote Config
+    PackageName: com.google.firebase.remote-config
+    SelectedVersion: 12.10.1
+    InstalledVersion: 12.10.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Firebase Crashlytics
+    PackageName: com.google.firebase.crashlytics
+    SelectedVersion: 12.10.1
+    InstalledVersion: 12.10.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads
+    PackageName: com.google.ads.mobile
+    SelectedVersion: 10.3.0
+    InstalledVersion: 10.3.0
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads AppLovin
+    PackageName: com.google.ads.mobile.mediation.applovin
+    SelectedVersion: 8.1.0
+    InstalledVersion: 8.1.0
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads IronSource
+    PackageName: com.google.ads.mobile.mediation.ironsource
+    SelectedVersion: 3.6.1
+    InstalledVersion: 3.6.1
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads Liftoff
+    PackageName: com.google.ads.mobile.mediation.liftoffmonetize
+    SelectedVersion: 5.2.4
+    InstalledVersion: 5.2.4
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads Meta
+    PackageName: com.google.ads.mobile.mediation.metaaudiencenetwork
+    SelectedVersion: 3.14.0
+    InstalledVersion: 3.14.0
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads Mintegral
+    PackageName: com.google.ads.mobile.mediation.mintegral
+    SelectedVersion: 1.8.4
+    InstalledVersion: 1.8.4
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads Pangle
+    PackageName: com.google.ads.mobile.mediation.pangle
+    SelectedVersion: 4.5.4
+    InstalledVersion: 4.5.4
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Mobile Ads Unity
+    PackageName: com.google.ads.mobile.mediation.unity
+    SelectedVersion: 3.12.5
+    InstalledVersion: 3.12.5
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Android App Bundle
+    PackageName: com.google.android.appbundle
+    SelectedVersion: 1.9.0
+    InstalledVersion: 1.9.0
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Play Common
+    PackageName: com.google.play.common
+    SelectedVersion: 1.9.2
+    InstalledVersion: 1.9.2
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Play Core
+    PackageName: com.google.play.core
+    SelectedVersion: 1.8.5
+    InstalledVersion: 1.8.5
+    IsInstalled: 1
+    IsLocked: 0
+  - DisplayName: Google Play In-app Review
+    PackageName: com.google.play.review
+    SelectedVersion: 1.8.3
+    InstalledVersion: 1.8.3
+    IsInstalled: 1
+    IsLocked: 0
+  adsSettings: {fileID: 0}

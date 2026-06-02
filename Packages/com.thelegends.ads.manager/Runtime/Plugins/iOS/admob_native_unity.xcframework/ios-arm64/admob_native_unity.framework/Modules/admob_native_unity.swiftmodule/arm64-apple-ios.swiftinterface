@@ -1,0 +1,150 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios15.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name admob_native_unity
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Foundation
+import GoogleMobileAds
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class CountdownDecorator : admob_native_unity.BaseShowBehavior {
+  public init(wrappedBehavior: admob_native_unity.BaseShowBehavior, initialDelay: Swift.Float, countdownDuration: Swift.Float, closeButtonDelay: Swift.Float)
+  @objc override public func show(viewController: UIKit.UIViewController, nativeAd: GoogleMobileAds.GADNativeAd, layoutName: Swift.String, callbacks: any admob_native_unity.NativeAdCallbacks)
+  @objc override public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  override public func getRootView() -> UIKit.UIView?
+  #endif
+  @objc deinit
+}
+@objc public class PositionDecorator : admob_native_unity.BaseShowBehavior {
+  public init(wrappedBehavior: admob_native_unity.BaseShowBehavior, x: Swift.Int, y: Swift.Int)
+  @objc override public func show(viewController: UIKit.UIViewController, nativeAd: GoogleMobileAds.GADNativeAd, layoutName: Swift.String, callbacks: any admob_native_unity.NativeAdCallbacks)
+  @objc override public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  override public func getRootView() -> UIKit.UIView?
+  #endif
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BaseShowBehavior : ObjectiveC.NSObject, admob_native_unity.IShowBehavior {
+  @objc public func show(viewController: UIKit.UIViewController, nativeAd: GoogleMobileAds.GADNativeAd, layoutName: Swift.String, callbacks: any admob_native_unity.NativeAdCallbacks)
+  @objc public func destroy()
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getRootView() -> UIKit.UIView?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol IShowBehavior {
+  @objc func show(viewController: UIKit.UIViewController, nativeAd: GoogleMobileAds.GADNativeAd, layoutName: Swift.String, callbacks: any admob_native_unity.NativeAdCallbacks)
+  @objc func destroy()
+}
+public typealias VoidCallback = @convention(c) (Swift.UnsafeMutableRawPointer?) -> Swift.Void
+public typealias ErrorCallback = @convention(c) (Swift.UnsafeMutableRawPointer?, Swift.UnsafePointer<Swift.CChar>?) -> Swift.Void
+public typealias PaidEventCallback = @convention(c) (Swift.UnsafeMutableRawPointer?, Swift.Int32, Swift.Int64, Swift.UnsafePointer<Swift.CChar>?) -> Swift.Void
+public typealias VideoMuteCallback = @convention(c) (Swift.UnsafeMutableRawPointer?, Swift.Bool) -> Swift.Void
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_Create")
+public func AdmobNative_Create() -> Swift.UnsafeMutableRawPointer?
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_RegisterCallbacks")
+public func AdmobNative_RegisterCallbacks(_ handle: Swift.UnsafeMutableRawPointer?, _ onAdLoaded: admob_native_unity.VoidCallback?, _ onAdFailedToLoad: admob_native_unity.ErrorCallback?, _ onAdShow: admob_native_unity.VoidCallback?, _ onAdClosed: admob_native_unity.VoidCallback?, _ onPaidEvent: admob_native_unity.PaidEventCallback?, _ onAdDidRecordImpression: admob_native_unity.VoidCallback?, _ onAdClicked: admob_native_unity.VoidCallback?, _ onVideoStart: admob_native_unity.VoidCallback?, _ onVideoEnd: admob_native_unity.VoidCallback?, _ onVideoMute: admob_native_unity.VideoMuteCallback?, _ onVideoPlay: admob_native_unity.VoidCallback?, _ onVideoPause: admob_native_unity.VoidCallback?, _ onAdShowedFullScreenContent: admob_native_unity.VoidCallback?, _ onAdDismissedFullScreenContent: admob_native_unity.VoidCallback?)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_LoadAd")
+public func AdmobNative_LoadAd(_ handle: Swift.UnsafeMutableRawPointer?, _ adUnitId: Swift.UnsafePointer<Swift.CChar>?)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_ShowAd")
+public func AdmobNative_ShowAd(_ handle: Swift.UnsafeMutableRawPointer?, _ layoutName: Swift.UnsafePointer<Swift.CChar>?)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_WithCountdown")
+public func AdmobNative_WithCountdown(_ handle: Swift.UnsafeMutableRawPointer?, _ initial: Swift.Float, _ duration: Swift.Float, _ closeDelay: Swift.Float)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_WithPosition")
+public func AdmobNative_WithPosition(_ handle: Swift.UnsafeMutableRawPointer?, _ x: Swift.Int32, _ y: Swift.Int32)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_DestroyAd")
+public func AdmobNative_DestroyAd(_ handle: Swift.UnsafeMutableRawPointer?)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_IsAdAvailable")
+public func AdmobNative_IsAdAvailable(_ handle: Swift.UnsafeMutableRawPointer?) -> Swift.Bool
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_GetWidthInPixels")
+public func AdmobNative_GetWidthInPixels(_ handle: Swift.UnsafeMutableRawPointer?) -> Swift.Float
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_GetHeightInPixels")
+public func AdmobNative_GetHeightInPixels(_ handle: Swift.UnsafeMutableRawPointer?) -> Swift.Float
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_Destroy")
+public func AdmobNative_Destroy(_ handle: Swift.UnsafeMutableRawPointer?)
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_GetResponseId")
+public func AdmobNative_GetResponseId(_ handle: Swift.UnsafeMutableRawPointer?) -> Swift.UnsafePointer<Swift.CChar>?
+#endif
+#if compiler(>=5.3) && $NonescapableTypes
+@_cdecl("AdmobNative_GetMediationAdapterClassName")
+public func AdmobNative_GetMediationAdapterClassName(_ handle: Swift.UnsafeMutableRawPointer?) -> Swift.UnsafePointer<Swift.CChar>?
+#endif
+@objc public class AdmobNativeController : ObjectiveC.NSObject {
+  @objc public init(viewController: UIKit.UIViewController, callbacks: any admob_native_unity.NativeAdCallbacks)
+  @objc public func loadAd(adUnitId: Swift.String, request: GoogleMobileAds.GADRequest)
+  @objc public func showAd(layoutName: Swift.String)
+  @objc public func destroyAd()
+  @objc public func isAdAvailable() -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func getResponseInfo() -> GoogleMobileAds.GADResponseInfo?
+  #endif
+  @discardableResult
+  @objc public func withCountdown(initial: Swift.Float, duration: Swift.Float, closeDelay: Swift.Float) -> admob_native_unity.AdmobNativeController
+  @discardableResult
+  @objc public func withPosition(x: Swift.Int, y: Swift.Int) -> admob_native_unity.AdmobNativeController
+  @objc public func getWidthInPixels() -> CoreFoundation.CGFloat
+  @objc public func getHeightInPixels() -> CoreFoundation.CGFloat
+  @objc deinit
+}
+extension admob_native_unity.AdmobNativeController : GoogleMobileAds.GADAdLoaderDelegate {
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+}
+extension admob_native_unity.AdmobNativeController : GoogleMobileAds.GADNativeAdLoaderDelegate {
+  @objc dynamic public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
+}
+extension admob_native_unity.AdmobNativeController : GoogleMobileAds.GADVideoControllerDelegate {
+  @objc dynamic public func videoControllerDidPlayVideo(_ videoController: GoogleMobileAds.GADVideoController)
+  @objc dynamic public func videoControllerDidPauseVideo(_ videoController: GoogleMobileAds.GADVideoController)
+  @objc dynamic public func videoControllerDidEndVideoPlayback(_ videoController: GoogleMobileAds.GADVideoController)
+  @objc dynamic public func videoControllerDidMuteVideo(_ videoController: GoogleMobileAds.GADVideoController)
+  @objc dynamic public func videoControllerDidUnmuteVideo(_ videoController: GoogleMobileAds.GADVideoController)
+}
+extension admob_native_unity.AdmobNativeController : GoogleMobileAds.GADNativeAdDelegate {
+  @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc dynamic public func nativeAdWillPresentScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+  @objc dynamic public func nativeAdDidDismissScreen(_ nativeAd: GoogleMobileAds.GADNativeAd)
+}
+@objc public protocol NativeAdCallbacks {
+  @objc func onAdLoaded()
+  @objc func onAdFailedToLoad(error: any Swift.Error)
+  @objc func onAdShow()
+  @objc func onAdClosed()
+  @objc func onPaidEvent(precisionType: Swift.Int, valueMicros: Swift.Int64, currencyCode: Swift.String)
+  @objc func onAdDidRecordImpression()
+  @objc func onAdClicked()
+  @objc func onVideoStart()
+  @objc func onVideoEnd()
+  @objc func onVideoMute(isMuted: Swift.Bool)
+  @objc func onVideoPlay()
+  @objc func onVideoPause()
+  @objc func onAdShowedFullScreenContent()
+  @objc func onAdDismissedFullScreenContent()
+}

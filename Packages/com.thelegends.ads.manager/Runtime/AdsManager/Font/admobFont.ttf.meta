@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ccdb16ec2db8396408af3fa52d1d7fc8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - UVN Tin Tuc Hep Them
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c7dae695fe7ee3c4ab5215645a6b222f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

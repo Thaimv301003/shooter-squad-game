@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac567c99f46af0429a8490c3f245152, type: 3}
+  m_Name: AdsSettingsAsset
+  m_EditorClassIdentifier: com.thelegends.ads.manager::TheLegends.Base.Ads.AdsSettings
+  _adsMediations: 04000000ffffffff
+  _flagMediations: 4
+  primaryMediation: 4
+  useFirebase: 1
+  firebaseTrackedTypes: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  useAppsFlyer: 1
+  appsFlyerTrackedTypes: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  useDatabuckets: 0
+  databucketsTrackedTypes: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  useFacebook: 0
+  facebookTrackedTypes: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  appsFlyerDevKey: Qhno4yJY6KHmZp9uS9DRe4
+  appleAppId: 
+  admobSheetUrl: 
+  maxSheetUrl: 
+  bannerPosition: 2
+  fixBannerSmallSize: 0
+  autoReLoadMax: 2
+  isTest: 1
+  preloadSettings:
+    preloadBanner: 1
+    preloadInterstitial: 1
+    preloadRewarded: 1
+    preloadMREC: 1
+    preloadAppOpen: 1
+    nativeAds:
+      preloadNativeBanner: 1
+      preloadNativeOverlay: 0
+      preloadNativeInter: 0
+      preloadNativeReward: 0
+      preloadNativeMrec: 0
+      preloadNativeAppOpen: 0
+      preloadNativeVideo: 0
+  showIRON: 0
+  ironAndroidAppKey: 
+  ironIOSAppKey: 
+  ironEnableAdmob: 0
+  ironAdmobAndroidAppID: 
+  ironAdmobIOSAppID: 
+  showMAX: 0
+  isShowMediationDebugger: 0
+  MAX_Android:
+    bannerIds: []
+    interIds: []
+    interOpenIds: []
+    rewardIds: []
+    mrecIds: []
+    mrecOpenIds: []
+    appOpenIds: []
+  MAX_iOS:
+    bannerIds: []
+    interIds: []
+    interOpenIds: []
+    rewardIds: []
+    mrecIds: []
+    mrecOpenIds: []
+    appOpenIds: []
+  showADMOB: 1
+  isUseNativeUnity: 0
+  isShowAdmobNativeValidator: 0
+  isHideWhenFullscreenShowed: 0
+  ADMOB_Android:
+    bannerIds: []
+    interIds: []
+    rewardIds: []
+    mrecIds: []
+    appOpenIds: []
+    interOpenIds: []
+    mrecOpenIds: []
+    nativeUnityIds: []
+    nativeOverlayIds: []
+    nativeBannerIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeInterIds: []
+    nativeRewardIds: []
+    nativeMrecIds: []
+    nativeAppOpenIds: []
+    nativeInterOpenIds: []
+    nativeMrecOpenIds: []
+    nativeVideoIds: []
+  ADMOB_IOS:
+    bannerIds: []
+    interIds: []
+    rewardIds: []
+    mrecIds: []
+    appOpenIds: []
+    interOpenIds: []
+    mrecOpenIds: []
+    nativeUnityIds: []
+    nativeOverlayIds: []
+    nativeBannerIds: []
+    nativeInterIds: []
+    nativeRewardIds: []
+    nativeMrecIds: []
+    nativeAppOpenIds: []
+    nativeInterOpenIds: []
+    nativeMrecOpenIds: []
+    nativeVideoIds: []
+  ADMOB_Android_Test:
+    bannerIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/6300978111
+    interIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/1033173712
+    rewardIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/5224354917
+    mrecIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/6300978111
+    appOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/9257395921
+    interOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/1033173712
+    mrecOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/6300978111
+    nativeUnityIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeOverlayIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeBannerIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeInterIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeRewardIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeMrecIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeAppOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeInterOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeMrecOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2247696110
+    nativeVideoIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/1044960115
+  ADMOB_IOS_Test:
+    bannerIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2934735716
+    interIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/4411468910
+    rewardIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/1712485313
+    mrecIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2934735716
+    appOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/5575463023
+    interOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/4411468910
+    mrecOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2934735716
+    nativeUnityIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeOverlayIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeBannerIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeInterIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeRewardIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeMrecIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeAppOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeInterOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeMrecOpenIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/3986624511
+    nativeVideoIds:
+    - stringIDs:
+      - ca-app-pub-3940256099942544/2521693316

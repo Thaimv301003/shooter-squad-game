@@ -1,0 +1,3345 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "admob_native_unity",
+    "printedName": "admob_native_unity",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CountdownDecorator",
+        "printedName": "CountdownDecorator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedBehavior:initialDelay:countdownDuration:closeButtonDelay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CountdownDecorator",
+                "printedName": "admob_native_unity.CountdownDecorator",
+                "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseShowBehavior",
+                "printedName": "admob_native_unity.BaseShowBehavior",
+                "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18admob_native_unity18CountdownDecoratorC15wrappedBehavior12initialDelay17countdownDuration011closeButtonI0AcA08BaseShowG0C_S3ftcfc",
+            "mangledName": "$s18admob_native_unity18CountdownDecoratorC15wrappedBehavior12initialDelay17countdownDuration011closeButtonI0AcA08BaseShowG0C_S3ftcfc",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewController:nativeAd:layoutName:callbacks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdCallbacks",
+                "printedName": "any admob_native_unity.NativeAdCallbacks",
+                "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator(im)showWithViewController:nativeAd:layoutName:callbacks:",
+            "mangledName": "$s18admob_native_unity18CountdownDecoratorC4show14viewController0B2Ad10layoutName9callbacksySo06UIViewH0C_So09GADNativeI0CSSAA06NativeI9Callbacks_ptF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "objc_name": "showWithViewController:nativeAd:layoutName:callbacks:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator(im)destroy",
+            "mangledName": "$s18admob_native_unity18CountdownDecoratorC7destroyyyF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "objc_name": "destroy",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRootView",
+            "printedName": "getRootView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18admob_native_unity18CountdownDecoratorC11getRootViewSo6UIViewCSgyF",
+            "mangledName": "$s18admob_native_unity18CountdownDecoratorC11getRootViewSo6UIViewCSgyF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CountdownDecorator",
+                "printedName": "admob_native_unity.CountdownDecorator",
+                "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator(im)init",
+            "mangledName": "$s18admob_native_unity18CountdownDecoratorCACycfc",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@admob_native_unity@objc(cs)CountdownDecorator",
+        "mangledName": "$s18admob_native_unity18CountdownDecoratorC",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior",
+        "superclassNames": [
+          "admob_native_unity.BaseShowBehavior",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IShowBehavior",
+            "printedName": "IShowBehavior",
+            "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior",
+            "mangledName": "$s18admob_native_unity13IShowBehaviorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PositionDecorator",
+        "printedName": "PositionDecorator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(wrappedBehavior:x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PositionDecorator",
+                "printedName": "admob_native_unity.PositionDecorator",
+                "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BaseShowBehavior",
+                "printedName": "admob_native_unity.BaseShowBehavior",
+                "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18admob_native_unity17PositionDecoratorC15wrappedBehavior1x1yAcA08BaseShowG0C_S2itcfc",
+            "mangledName": "$s18admob_native_unity17PositionDecoratorC15wrappedBehavior1x1yAcA08BaseShowG0C_S2itcfc",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewController:nativeAd:layoutName:callbacks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdCallbacks",
+                "printedName": "any admob_native_unity.NativeAdCallbacks",
+                "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator(im)showWithViewController:nativeAd:layoutName:callbacks:",
+            "mangledName": "$s18admob_native_unity17PositionDecoratorC4show14viewController0B2Ad10layoutName9callbacksySo06UIViewH0C_So09GADNativeI0CSSAA06NativeI9Callbacks_ptF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "objc_name": "showWithViewController:nativeAd:layoutName:callbacks:",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator(im)destroy",
+            "mangledName": "$s18admob_native_unity17PositionDecoratorC7destroyyyF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "objc_name": "destroy",
+            "declAttributes": [
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRootView",
+            "printedName": "getRootView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18admob_native_unity17PositionDecoratorC11getRootViewSo6UIViewCSgyF",
+            "mangledName": "$s18admob_native_unity17PositionDecoratorC11getRootViewSo6UIViewCSgyF",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "declAttributes": [
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PositionDecorator",
+                "printedName": "admob_native_unity.PositionDecorator",
+                "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator(im)init",
+            "mangledName": "$s18admob_native_unity17PositionDecoratorCACycfc",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@admob_native_unity@objc(cs)PositionDecorator",
+        "mangledName": "$s18admob_native_unity17PositionDecoratorC",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior",
+        "superclassNames": [
+          "admob_native_unity.BaseShowBehavior",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IShowBehavior",
+            "printedName": "IShowBehavior",
+            "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior",
+            "mangledName": "$s18admob_native_unity13IShowBehaviorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseShowBehavior",
+        "printedName": "BaseShowBehavior",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewController:nativeAd:layoutName:callbacks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdCallbacks",
+                "printedName": "any admob_native_unity.NativeAdCallbacks",
+                "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior(im)showWithViewController:nativeAd:layoutName:callbacks:",
+            "mangledName": "$s18admob_native_unity16BaseShowBehaviorC4show14viewController0B2Ad10layoutName9callbacksySo06UIViewI0C_So09GADNativeJ0CSSAA06NativeJ9Callbacks_ptF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "showWithViewController:nativeAd:layoutName:callbacks:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior(im)destroy",
+            "mangledName": "$s18admob_native_unity16BaseShowBehaviorC7destroyyyF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "destroy",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRootView",
+            "printedName": "getRootView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18admob_native_unity16BaseShowBehaviorC11getRootViewSo6UIViewCSgyF",
+            "mangledName": "$s18admob_native_unity16BaseShowBehaviorC11getRootViewSo6UIViewCSgyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseShowBehavior",
+                "printedName": "admob_native_unity.BaseShowBehavior",
+                "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior(im)init",
+            "mangledName": "$s18admob_native_unity16BaseShowBehaviorCACycfc",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@admob_native_unity@objc(cs)BaseShowBehavior",
+        "mangledName": "$s18admob_native_unity16BaseShowBehaviorC",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IShowBehavior",
+            "printedName": "IShowBehavior",
+            "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior",
+            "mangledName": "$s18admob_native_unity13IShowBehaviorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IShowBehavior",
+        "printedName": "IShowBehavior",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(viewController:nativeAd:layoutName:callbacks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdCallbacks",
+                "printedName": "any admob_native_unity.NativeAdCallbacks",
+                "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior(im)showWithViewController:nativeAd:layoutName:callbacks:",
+            "mangledName": "$s18admob_native_unity13IShowBehaviorP4show14viewController0B2Ad10layoutName9callbacksySo06UIViewH0C_So09GADNativeI0CSSAA06NativeI9Callbacks_ptF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.IShowBehavior>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.IShowBehavior>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroy",
+            "printedName": "destroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior(im)destroy",
+            "mangledName": "$s18admob_native_unity13IShowBehaviorP7destroyyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.IShowBehavior>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.IShowBehavior>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@admob_native_unity@objc(pl)IShowBehavior",
+        "mangledName": "$s18admob_native_unity13IShowBehaviorP",
+        "moduleName": "admob_native_unity",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_Create",
+        "printedName": "AdmobNative_Create()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_Create",
+        "mangledName": "$s18admob_native_unity18AdmobNative_CreateSvSgyF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_RegisterCallbacks",
+        "printedName": "AdmobNative_RegisterCallbacks(_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?, Swift.UnsafePointer<Swift.Int8>?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.UnsafePointer<Swift.Int8>?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.UnsafePointer<Swift.Int8>?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafePointer",
+                            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int8",
+                                "printedName": "Swift.Int8",
+                                "usr": "s:s4Int8V"
+                              }
+                            ],
+                            "usr": "s:SP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?, Swift.Int32, Swift.Int64, Swift.UnsafePointer<Swift.Int8>?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.Int32, Swift.Int64, Swift.UnsafePointer<Swift.Int8>?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.Int32, Swift.Int64, Swift.UnsafePointer<Swift.Int8>?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int32",
+                        "printedName": "Swift.Int32",
+                        "usr": "s:s5Int32V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int64",
+                        "printedName": "Swift.Int64",
+                        "usr": "s:s5Int64V"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafePointer",
+                            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int8",
+                                "printedName": "Swift.Int8",
+                                "usr": "s:s4Int8V"
+                              }
+                            ],
+                            "usr": "s:SP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?, Swift.Bool) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.UnsafeMutableRawPointer?, Swift.Bool)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.UnsafeMutableRawPointer?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UnsafeMutableRawPointer",
+                            "printedName": "Swift.UnsafeMutableRawPointer",
+                            "usr": "s:Sv"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "((Swift.UnsafeMutableRawPointer?) -> ())?",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.UnsafeMutableRawPointer?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_RegisterCallbacks:::::::::::::::",
+        "mangledName": "$s18admob_native_unity29AdmobNative_RegisterCallbacksyySvSg_yACXCSgyAC_SPys4Int8VGSgtXCSgA2DyAC_s5Int32Vs5Int64VAHtXCSgA4DyAC_SbtXCSgA4DtF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_LoadAd",
+        "printedName": "AdmobNative_LoadAd(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_LoadAd::",
+        "mangledName": "$s18admob_native_unity18AdmobNative_LoadAdyySvSg_SPys4Int8VGSgtF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_ShowAd",
+        "printedName": "AdmobNative_ShowAd(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_ShowAd::",
+        "mangledName": "$s18admob_native_unity18AdmobNative_ShowAdyySvSg_SPys4Int8VGSgtF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_WithCountdown",
+        "printedName": "AdmobNative_WithCountdown(_:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_WithCountdown::::",
+        "mangledName": "$s18admob_native_unity25AdmobNative_WithCountdownyySvSg_S3ftF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_WithPosition",
+        "printedName": "AdmobNative_WithPosition(_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int32",
+            "printedName": "Swift.Int32",
+            "usr": "s:s5Int32V"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_WithPosition:::",
+        "mangledName": "$s18admob_native_unity24AdmobNative_WithPositionyySvSg_s5Int32VAEtF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_DestroyAd",
+        "printedName": "AdmobNative_DestroyAd(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_DestroyAd:",
+        "mangledName": "$s18admob_native_unity21AdmobNative_DestroyAdyySvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_IsAdAvailable",
+        "printedName": "AdmobNative_IsAdAvailable(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_IsAdAvailable:",
+        "mangledName": "$s18admob_native_unity25AdmobNative_IsAdAvailableySbSvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_GetWidthInPixels",
+        "printedName": "AdmobNative_GetWidthInPixels(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_GetWidthInPixels:",
+        "mangledName": "$s18admob_native_unity28AdmobNative_GetWidthInPixelsySfSvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_GetHeightInPixels",
+        "printedName": "AdmobNative_GetHeightInPixels(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_GetHeightInPixels:",
+        "mangledName": "$s18admob_native_unity29AdmobNative_GetHeightInPixelsySfSvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_Destroy",
+        "printedName": "AdmobNative_Destroy(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_Destroy:",
+        "mangledName": "$s18admob_native_unity19AdmobNative_DestroyyySvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_GetResponseId",
+        "printedName": "AdmobNative_GetResponseId(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_GetResponseId:",
+        "mangledName": "$s18admob_native_unity25AdmobNative_GetResponseIdySPys4Int8VGSgSvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "AdmobNative_GetMediationAdapterClassName",
+        "printedName": "AdmobNative_GetMediationAdapterClassName(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafeMutableRawPointer?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)AdmobNative_GetMediationAdapterClassName:",
+        "mangledName": "$s18admob_native_unity40AdmobNative_GetMediationAdapterClassNameySPys4Int8VGSgSvSgF",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdmobNativeController",
+        "printedName": "AdmobNativeController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(viewController:callbacks:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmobNativeController",
+                "printedName": "admob_native_unity.AdmobNativeController",
+                "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdCallbacks",
+                "printedName": "any admob_native_unity.NativeAdCallbacks",
+                "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)initWithViewController:callbacks:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC04viewF09callbacksACSo06UIViewF0C_AA0E11AdCallbacks_ptcfc",
+            "moduleName": "admob_native_unity",
+            "objc_name": "initWithViewController:callbacks:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(adUnitId:request:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADRequest",
+                "printedName": "GoogleMobileAds.GADRequest",
+                "usr": "c:objc(cs)GADRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)loadAdWithAdUnitId:request:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC6loadAd8adUnitId7requestySS_So10GADRequestCtF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "loadAdWithAdUnitId:request:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(layoutName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)showAdWithLayoutName:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC6showAd10layoutNameySS_tF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "showAdWithLayoutName:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyAd",
+            "printedName": "destroyAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)destroyAd",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC9destroyAdyyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAdAvailable",
+            "printedName": "isAdAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)isAdAvailable",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC13isAdAvailableSbyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getResponseInfo",
+            "printedName": "getResponseInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.GADResponseInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADResponseInfo",
+                    "printedName": "GoogleMobileAds.GADResponseInfo",
+                    "usr": "c:objc(cs)GADResponseInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)getResponseInfo",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC15getResponseInfoSo011GADResponseI0CSgyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withCountdown",
+            "printedName": "withCountdown(initial:duration:closeDelay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmobNativeController",
+                "printedName": "admob_native_unity.AdmobNativeController",
+                "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)withCountdownWithInitial:duration:closeDelay:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC13withCountdown7initial8duration10closeDelayACSf_S2ftF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "withCountdownWithInitial:duration:closeDelay:",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "withPosition",
+            "printedName": "withPosition(x:y:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmobNativeController",
+                "printedName": "admob_native_unity.AdmobNativeController",
+                "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)withPositionWithX:y:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC12withPosition1x1yACSi_SitF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "withPositionWithX:y:",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getWidthInPixels",
+            "printedName": "getWidthInPixels()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)getWidthInPixels",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC16getWidthInPixels12CoreGraphics7CGFloatVyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHeightInPixels",
+            "printedName": "getHeightInPixels()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)getHeightInPixels",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC17getHeightInPixels12CoreGraphics7CGFloatVyF",
+            "moduleName": "admob_native_unity",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdmobNativeController",
+                "printedName": "admob_native_unity.AdmobNativeController",
+                "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController(im)init",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerCACycfc",
+            "moduleName": "admob_native_unity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)adLoader:didFailToReceiveAdWithError:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC8adLoader_27didFailToReceiveAdWithErrorySo05GADAdH0C_s0O0_ptF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "adLoader:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdLoader",
+                "printedName": "GoogleMobileAds.GADAdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)adLoader:didReceiveNativeAd:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC8adLoader_10didReceiveySo05GADAdH0C_So11GADNativeAdCtF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "adLoader:didReceiveNativeAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoControllerDidPlayVideo",
+            "printedName": "videoControllerDidPlayVideo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADVideoController",
+                "printedName": "GoogleMobileAds.GADVideoController",
+                "usr": "c:objc(cs)GADVideoController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)videoControllerDidPlayVideo:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC05videoF12DidPlayVideoyySo08GADVideoF0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "videoControllerDidPlayVideo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoControllerDidPauseVideo",
+            "printedName": "videoControllerDidPauseVideo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADVideoController",
+                "printedName": "GoogleMobileAds.GADVideoController",
+                "usr": "c:objc(cs)GADVideoController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)videoControllerDidPauseVideo:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC05videoF13DidPauseVideoyySo08GADVideoF0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "videoControllerDidPauseVideo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoControllerDidEndVideoPlayback",
+            "printedName": "videoControllerDidEndVideoPlayback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADVideoController",
+                "printedName": "GoogleMobileAds.GADVideoController",
+                "usr": "c:objc(cs)GADVideoController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)videoControllerDidEndVideoPlayback:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC05videoF19DidEndVideoPlaybackyySo08GADVideoF0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "videoControllerDidEndVideoPlayback:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoControllerDidMuteVideo",
+            "printedName": "videoControllerDidMuteVideo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADVideoController",
+                "printedName": "GoogleMobileAds.GADVideoController",
+                "usr": "c:objc(cs)GADVideoController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)videoControllerDidMuteVideo:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC05videoF12DidMuteVideoyySo08GADVideoF0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "videoControllerDidMuteVideo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "videoControllerDidUnmuteVideo",
+            "printedName": "videoControllerDidUnmuteVideo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADVideoController",
+                "printedName": "GoogleMobileAds.GADVideoController",
+                "usr": "c:objc(cs)GADVideoController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)videoControllerDidUnmuteVideo:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC05videoF14DidUnmuteVideoyySo08GADVideoF0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "videoControllerDidUnmuteVideo:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdDidRecordImpression",
+            "printedName": "nativeAdDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)nativeAdDidRecordImpression:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC0B21AdDidRecordImpressionyySo09GADNativeG0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "nativeAdDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdDidRecordClick",
+            "printedName": "nativeAdDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)nativeAdDidRecordClick:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC0B16AdDidRecordClickyySo09GADNativeG0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "nativeAdDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdWillPresentScreen",
+            "printedName": "nativeAdWillPresentScreen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)nativeAdWillPresentScreen:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC0B19AdWillPresentScreenyySo09GADNativeG0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "nativeAdWillPresentScreen:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdDidDismissScreen",
+            "printedName": "nativeAdDidDismissScreen(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GADNativeAd",
+                "printedName": "GoogleMobileAds.GADNativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@admob_native_unity@objc(cs)AdmobNativeController(im)nativeAdDidDismissScreen:",
+            "mangledName": "$s18admob_native_unity21AdmobNativeControllerC0B18AdDidDismissScreenyySo09GADNativeG0CF",
+            "moduleName": "admob_native_unity",
+            "objc_name": "nativeAdDidDismissScreen:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@admob_native_unity@objc(cs)AdmobNativeController",
+        "mangledName": "$s18admob_native_unity21AdmobNativeControllerC",
+        "moduleName": "admob_native_unity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "admob_native_unity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeAdCallbacks",
+        "printedName": "NativeAdCallbacks",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onAdLoaded",
+            "printedName": "onAdLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdLoaded",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE6LoadedyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdFailedToLoad",
+            "printedName": "onAdFailedToLoad(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdFailedToLoadWithError:",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE12FailedToLoad5errorys5Error_p_tF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdShow",
+            "printedName": "onAdShow()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdShow",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE4ShowyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClosed",
+            "printedName": "onAdClosed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdClosed",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE6ClosedyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onPaidEvent",
+            "printedName": "onPaidEvent(precisionType:valueMicros:currencyCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onPaidEventWithPrecisionType:valueMicros:currencyCode:",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP11onPaidEvent13precisionType11valueMicros12currencyCodeySi_s5Int64VSStF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdDidRecordImpression",
+            "printedName": "onAdDidRecordImpression()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdDidRecordImpression",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE19DidRecordImpressionyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdClicked",
+            "printedName": "onAdClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdClicked",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE7ClickedyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoStart",
+            "printedName": "onVideoStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onVideoStart",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP12onVideoStartyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoEnd",
+            "printedName": "onVideoEnd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onVideoEnd",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP10onVideoEndyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoMute",
+            "printedName": "onVideoMute(isMuted:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onVideoMuteWithIsMuted:",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP11onVideoMute7isMutedySb_tF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoPlay",
+            "printedName": "onVideoPlay()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onVideoPlay",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP11onVideoPlayyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onVideoPause",
+            "printedName": "onVideoPause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onVideoPause",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP12onVideoPauseyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdShowedFullScreenContent",
+            "printedName": "onAdShowedFullScreenContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdShowedFullScreenContent",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE23ShowedFullScreenContentyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAdDismissedFullScreenContent",
+            "printedName": "onAdDismissedFullScreenContent()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks(im)onAdDismissedFullScreenContent",
+            "mangledName": "$s18admob_native_unity17NativeAdCallbacksP02onE26DismissedFullScreenContentyyF",
+            "moduleName": "admob_native_unity",
+            "genericSig": "<τ_0_0 where τ_0_0 : admob_native_unity.NativeAdCallbacks>",
+            "sugared_genericSig": "<Self where Self : admob_native_unity.NativeAdCallbacks>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@admob_native_unity@objc(pl)NativeAdCallbacks",
+        "mangledName": "$s18admob_native_unity17NativeAdCallbacksP",
+        "moduleName": "admob_native_unity",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/decorator\/CountdownDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 719,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/decorator\/CountdownDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 916,
+      "length": 3,
+      "value": "110"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/decorator\/CountdownDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 958,
+      "length": 3,
+      "value": "111"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/decorator\/CountdownDecorator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 998,
+      "length": 3,
+      "value": "112"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/AdmobNativeBridge.swift",
+      "kind": "Dictionary",
+      "offset": 3416,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/AdmobNativeBridge.swift",
+      "kind": "Dictionary",
+      "offset": 3539,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbf\/Unity Project\/Admob_Native_iOS\/admob_native_unity\/AdmobNativeBridge.swift",
+      "kind": "Dictionary",
+      "offset": 3724,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

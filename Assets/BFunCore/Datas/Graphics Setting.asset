@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdee4f9944de2984f8eb7691fdb1f3c3, type: 3}
+  m_Name: Graphics Setting
+  m_EditorClassIdentifier: 
+  detectedPipeline: Built-in Render Pipeline
+  LowProfile:
+    profileName: Low
+    renderScale: 0.7
+    targetFrameRate: 30
+    textureQuality: 2
+    anisotropicFiltering: 0
+    lodBias: 1.5
+    shadowQuality: 0
+    shadowDistance: 15
+    shadowCascades: 0
+    cameraFarClip: 150
+    detailObjectDensity: 0.2
+  MediumProfile:
+    profileName: Medium
+    renderScale: 0.85
+    targetFrameRate: 60
+    textureQuality: 1
+    anisotropicFiltering: 0
+    lodBias: 1
+    shadowQuality: 1
+    shadowDistance: 40
+    shadowCascades: 2
+    cameraFarClip: 300
+    detailObjectDensity: 0.6
+  HighProfile:
+    profileName: High
+    renderScale: 1
+    targetFrameRate: 60
+    textureQuality: 0
+    anisotropicFiltering: 0
+    lodBias: 1
+    shadowQuality: 2
+    shadowDistance: 80
+    shadowCascades: 2
+    cameraFarClip: 500
+    detailObjectDensity: 1

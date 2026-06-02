@@ -1,0 +1,27 @@
+{
+    "name": "com.thelegends.ads.manager",
+    "rootNamespace": "com.thelegends.ads.manager",
+    "references": [
+        "GUID:b9892e19a741c2c4690060e4a6416aca",
+        "GUID:3125b533d9bc33a4794e3332ebe5cc5a",
+        "GUID:5a2a920273770c542a7150e46de8736e",
+        "GUID:2a37df438292d4903b4e5159c5de3bf9",
+        "GUID:5d61e9871e627f848beec24bb4e2a89c",
+        "GUID:3b570a5146f9d4f0fa107ed4559471a3",
+        "GUID:a42c64b2b45190347903076a017fce90",
+        "GUID:febaf25a60dafbd44941357b21678606",
+        "GUID:870f05f79e1a5df4f9526b627661064e",
+        "GUID:52d6129295ccd864283fe85b6d8ab52e",
+        "GUID:a4cfc1a18fa3a469b96d885db522f42e",
+        "GUID:b8f38c0cc3f172745aac6fc11d2a9dce"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

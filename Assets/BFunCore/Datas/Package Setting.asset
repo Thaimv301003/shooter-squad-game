@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62ccbd406c5fa7d4d833b7fa5fccc231, type: 3}
+  m_Name: Package Setting
+  m_EditorClassIdentifier: 
+  SearchTerm: 
+  bfunPackageLibary:
+  - packageName: All-In-1-Vfx-Toolkit-v14
+    packageSize: 108.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1PYFMaZmC-DrwrBiLgzM5l72VXIaJn1n-
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Amplify Shader Pack v1.0.3
+    packageSize: 174.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1vpQH4ekdnjpQVuTlF2VIOYPGUPhhupfq
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Arcade Bike Physics
+    packageSize: 17.8 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1Zdm-gqfvi_C20Zg1JIdd02Ju-JLA3015
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: ARCADE_Ultimate_Vehicles_Pack_Low_Poly_Cars_V_2022_5
+    packageSize: 38 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1taLLU3jAVACVGTzIcqPyNupIK1m4bEaV
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Bakery_-_GPU_Lightmapper_v1.9501
+    packageSize: 456 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1W3dSVQxTzzW4oZfeR8y4walRWkOxjI77
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Build Report Tool v3.10.1
+    packageSize: 583.6 KB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1tpSRpa3UUkGvhZeCfDOf2e_W8fUG2yLV
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Car Paint - Lite v2.1
+    packageSize: 83.7 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1ciwX5yVTBLsCbWz1Sg2poGd8DaZ5UKkI
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Cartoon+FX+Remaster+R+1.2.2
+    packageSize: 10.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1lgAC93paQ18MX0UsBjHmvFmFQ57pc5ek
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Classical City Mobile v1.0
+    packageSize: 533.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1UTc5iBNAoCFEsFMXStq_2oMXEv69cvc1
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Complete City - Mobile Friendly v1.0
+    packageSize: 835.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 14BP-eWaeblJXiDjYGZyIzskFzGIvGuFU
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Corgi_Engine_-_2D_25D_Platformer_v6.7
+    packageSize: 288.4 MB
+    uploaderName: "Ph\u1EA1m Quang T\xF9ng BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1-_fIerrwgWWD269xYi2UY39Z4jqcLfIW
+    isInstalled: 0
+    uploadDate: 8/15/2025
+  - packageName: DOTween Pro v1.0.380
+    packageSize: 576 KB
+    uploaderName: "V\xE2n Tr\u01B0\u1EDDng Ninh"
+    InstalledText: "\u2713 Installed"
+    fileId: 1zfVvCI9QXNxcbn_yNxP-Lmo4tMuBs_uF
+    isInstalled: 0
+    uploadDate: 8/15/2025
+  - packageName: Easy Decal v2021.4.1
+    packageSize: 404.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1mr8noBs4S4i-QAjVdifxTodkwK0byV09
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Epic Toon FX v1.8
+    packageSize: 70.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1HxRpWr65pR0xNuNGS8ALgMI1xMbfROTw
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Epic Toon FX v1.8
+    packageSize: 70.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1VxTBgKr3cqXPB_B6RDEClVhJyq2svV-y
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: FactoryWarehouse Interior Modular Pack
+    packageSize: 173.8 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1MyHu00wCb8RWyD_Io8P6ZEybQaODhEQC
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Fantastic Cartoon VFX v5.0.1 (1)
+    packageSize: 15.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1kgcQjySwe79Q3_NPZtkRfET8XQcmGimT
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Fantastic Cartoon VFX v5.0.1
+    packageSize: 15.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1Q-NceWIUEMoDDnwVDPQFNgjZCuFZnYVS
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Fast Motion Blur Mobile URP VR AR LWRP v1.2
+    packageSize: 15.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 19CFgfK_4BTrhV0-Bh4IMXwj59X1qvIIZ
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Firework
+    packageSize: 719.2 KB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 172MRdW0QQFIHHpX3xZ6nbob_AExdsoZP
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Forever - Endless Runner Engine v1.14
+    packageSize: 8.7 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 10K4cvuyoV7PEquz6m8DEv4_a7J3_chbz
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Ghost Recording and Replay Script v1.1
+    packageSize: 66.1 KB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 162WkPY_pIgatbNxh6uClrFpFJyMVcC9D
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Glauco Vehicle Controller
+    packageSize: 735.3 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1PBT-8fP02Ov64XGVc_NWWvedijQnxDd7
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Highroad Engine
+    packageSize: 96.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 11Vy1rXyFphn54AcpNYlsgvdFSeTw3om3
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: HOLO+FX+PACK+v1.4
+    packageSize: 2.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 11rE6ZGEI1_Ct9AIExb3tzyLAXJiEuCmA
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Industrial Zone - Mobile optimized v1.0
+    packageSize: 245 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1M2jCWUgMsccaCcgIkkRMve513hMJ-4lL
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: LCD Shader LCD Object Shader for Unity URP v1.1.0
+    packageSize: 3.6 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1m3SrNtvm6okrzptYEHU7JlkrnCakf59W
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Magic Arsenal v2.7
+    packageSize: 108.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1OyYCJqC2zd7vywASoovNOheGz2MiKXoE
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Magic Circles and Shields Vol3 v1.0.1
+    packageSize: 60.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1ZIxxhkIAkwH1OLdpuh_1eF4_HfTry2io
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Magic Effects Pack 1 v2.4.0.0
+    packageSize: 61.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1FdKd-3SrwDi41yxhdfXTvVys_8HUBFwT
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Mesh Baker
+    packageSize: 72.7 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1kDNRV9oNCa7yxV3SqGxzI_SrjV21t7xF
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Mobile Garage Vol 2 v1.0
+    packageSize: 234.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1ut7VfyMVX97tNdHC3qwY6B1LjZE1gB-M
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Motorbike Physics Tool
+    packageSize: 7.7 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1-TndFCEtUHPy7YAigI_sKE_rVkyaAnnh
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Multiversal Vehicle Controller Pro - Car Controller
+    packageSize: 520.1 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1PraJyzy3mI8VA3hhf3CJJwmjzizm-d7I
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Odin Inspector and Serializer v3.1.10
+    packageSize: 5.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1yXhnEuZCkvHgtJbZbq3pfvx0NEzhBSii
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Odin Validator (2)
+    packageSize: 257 KB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1M_ZYgI6hMzI7lL7reUz005vD1sLHpky7
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: os. Buto Volumetric Fog and Volumetric Lighting for URP v3.1.1
+    packageSize: 103.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1YuG3SY6MlcvB1uPTmqRnWte6FiG_zWL-
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Particle ProFX One v1.2.3
+    packageSize: 48.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 160fKx7Bp2bPwrAu4U41lHCGqMHL-3mFL
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Particle VFX v1.2
+    packageSize: 16.7 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1GP9LIvJCSTnoUUposmk19UCpaaqzGXcD
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: POLYGON VFX
+    packageSize: 19.3 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1sFqQN41rZRQV5t96mRmPq64qtFqoMzov
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Race Track Generator
+    packageSize: 0 B
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1bkyG-W77-eClAf-vbUiBiSBGGfJSQK5m
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Real Drift Manager v1.0
+    packageSize: 12.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1i1NDLbvB5TNE5awsQ8WWOKN2fB2rdTO8
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Realistic Car Controller
+    packageSize: 283.1 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1FgyuKcCkjjl9QX4RbhWGgWbMVPx6NISp
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Realistic Engine Sounds - Plus v1.8a
+    packageSize: 64 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1yXKod81Moyh2C95Mv8l1tUbK6w96dL9k
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Realistic Engine Sounds 2 - Pro Edition
+    packageSize: 815.5 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1wITb3jI9jbRkE1lm24SAVCyZPGQCMBr-
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Realistic Smoke VFX v1.6
+    packageSize: 1.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 11MXC9OTC_1zyyMobOeeMtoq-lb5V2l7F
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: Realistic Traffic Controller v1.70
+    packageSize: 155.4 MB
+    uploaderName: "V\xE2n Tr\u01B0\u1EDDng Ninh"
+    InstalledText: "\u2713 Installed"
+    fileId: 1IA7ZJdoIQBdM_XNcprzVIrlMX7HKYYO2
+    isInstalled: 0
+    uploadDate: 8/16/2025
+  - packageName: Shapes+FX+Pack+v1.45
+    packageSize: 8.5 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1fHEZiZfdY9M7jrbcM3V6bQxe5P5O81UH
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Shapes+FX+Pack+Vol2+v1.0
+    packageSize: 21.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1VQx1MHsHgL3NaiAQpTojCi8qkMIVfHQJ
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Sim-Cade Vehicle Physics
+    packageSize: 142.8 MB
+    uploaderName: "Nguy\u1EC5n H\u1EEFu Linh BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1nWGQ2Tcx-ERVXgPuRjrTFcE_ZnvV41aH
+    isInstalled: 0
+    uploadDate: 7/29/2025
+  - packageName: Simple Bicycle Physics
+    packageSize: 239 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1Thl7kgYWHAQpl7_2x7zODvuT0pAU9TzJ
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Simple Motocross Physics
+    packageSize: 573.1 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1MqpFJtbIGN87ZIsRm76_-_2im2HtwqOp
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Toon Fire FX v1.1
+    packageSize: 1011.4 KB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1SnjsT7YJdS5cy9S-OUum5h3EfN-is4Kp
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: TopDown Engine v2.1
+    packageSize: 185.1 MB
+    uploaderName: "Ph\u1EA1m Quang T\xF9ng BFun"
+    InstalledText: "\u2713 Installed"
+    fileId: 1ibzIPDaB6bR2RSwKlFHElSKk5M5QC8aA
+    isInstalled: 0
+    uploadDate: 8/15/2025
+  - packageName: Traffic Ride Template
+    packageSize: 247.4 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1pfIH5iupfG5zv0XUur82VcDfuVQIZDrb
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Trails FX v1.6.2
+    packageSize: 9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 16g7wdNvW6ZiraKmNCS22oxF5rmaGg0vT
+    isInstalled: 0
+    uploadDate: 2/3/2024
+  - packageName: UGUI MiniMap v2.5.1
+    packageSize: 3.3 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 14bLZT03O1RNWCz1RePVb8FQHRglh7xML
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: UI Particle Image
+    packageSize: 2.1 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1XaDI3qh30MuBUYiwa2TjkTqDjA0ryf1Y
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Ultimate LOD System MT - Automatic LOD Generator Mesh Simplifier
+      More v3.4.4
+    packageSize: 113.9 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 1U6tbYdyb8RUEjv0_d036OGwIDahEkxid
+    isInstalled: 0
+    uploadDate: 1/27/2024
+  - packageName: Universal Vehicle Controller v1.3.121
+    packageSize: 304.2 MB
+    uploaderName: Unknown
+    InstalledText: "\u2713 Installed"
+    fileId: 10FRZF2VeEzXrP6ARMxqx_XLyfbV2dUQc
+    isInstalled: 0
+    uploadDate: 1/27/2024

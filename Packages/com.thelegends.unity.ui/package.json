@@ -1,0 +1,24 @@
+{
+  "name": "com.thelegends.unity.ui",
+  "displayName": "Unity UIs",
+  "description": "Unity UIs use with Unity3D",
+  "keywords": [],
+  "version": "1.0.6",
+  "documentationUrl": "https://github.com/Unity-UPM-Packages/Unity-UI#documentation",
+  "changelogUrl": "https://github.com/Unity-UPM-Packages/Unity-UI/releases",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/Unity-UPM-Packages/Unity-UI.git",
+    "url": "https://github.com/Unity-UPM-Packages/Unity-UI.git"
+  },
+  "author": {
+    "name": "Unity-UPM-Packages",
+    "url": "https://github.com/Unity-UPM-Packages"
+  },
+  "dependencies": {
+    "com.annulusgames.lit-motion": "2.0.1",
+    "com.annulusgames.lit-motion.animation": "2.0.1"
+  },
+  "_fingerprint": "c30328b87bb1e5430da29648321663855a8e82b1"
+}

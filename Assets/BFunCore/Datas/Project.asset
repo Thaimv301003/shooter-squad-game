@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f421f18b0071749ae085fab90c6ea0, type: 3}
+  m_Name: Project
+  m_EditorClassIdentifier: 
+  buildIcon: {fileID: 2800000, guid: c8065d9fca68cf74c98b7704fce76a1e, type: 3}
+  apkName: squad shooter
+  PackageName: com.DefaultCompany.squadshooter
+  Orientation: 0
+  minimumAPILevel: 28
+  maximumAPILevel: 0
+  GameVersion: 1.0.0
+  BundleVersion: 1
+  colorSpace: 0
+  SceneSearchTerm: 
+  allScenes:
+  - SceneName: Init
+    Path: Assets/Project Files/Game/Scenes/Init.unity
+    InBuild: 1
+  - SceneName: Menu
+    Path: Assets/Project Files/Game/Scenes/Menu.unity
+    InBuild: 1
+  - SceneName: Game
+    Path: Assets/Project Files/Game/Scenes/Game.unity
+    InBuild: 1
+  - SceneName: SampleScene
+    Path: Assets/EditorAttributes/Samples/SampleScene.unity
+    InBuild: 0
+  - SceneName: Level Editor
+    Path: Assets/Project Files/Game/Scenes/Level Editor.unity
+    InBuild: 0
+  - SceneName: AdsSplash
+    Path: Assets/Scenes/AdsSplash.unity
+    InBuild: 0
+  - SceneName: SampleScene
+    Path: Assets/Scenes/SampleScene.unity
+    InBuild: 0
+  - SceneName: Haptic Example Scene
+    Path: Assets/Watermelon Core/Examples/Example 03 - Haptic/Scenes/Haptic Example
+      Scene.unity
+    InBuild: 0
+  - SceneName: IAP Example Scene
+    Path: Assets/Watermelon Core/Examples/Example 05 - IAP/Scenes/IAP Example Scene.unity
+    InBuild: 0
+  LoadingScene: Loading
+  HomeScene: Home

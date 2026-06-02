@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "unity-drive-manager",
+  "private_key_id": "919d3c32401fc150866012e9cb0b78f5c032ce97",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCWynCXMdA8O5wk\nkL+UzkZPopCYH6KjrQS5+8qY0+Ml2QFrFP5D5Y+YAp3FuovNFsd6QM1fZFI1SDSi\nnNxJEpL7vE1s3nvLP/FrW2UapmAJ7DdSbYpZc1TOxN1/djbat1L2uBH9US3VoSKc\nqFwR83L7mV6uP4Swdp67IbS12JiUhPre6dpQza6pS9OhsdF6f/ec8XzAy4l2fWYd\ngndsI7O2lOOWrJq0DRR+K/kq2RFZSBk1cTDX6HHl3ndErEH7lPbxF8QYrj6XWR+3\nGRuMF7FI1B0mjTJuVo1/E6WmLF1zVFVVPG7PHCMS+SJC6NgCusnfQWhheXFv21wp\nWL8g+WnvAgMBAAECggEAF9f9A7tpvQyD/TgyQxp2/cKr8JIYCp+iPrJ078OZiHOP\nCNqx9hSHpzbKseh0kMKIWmmC0BGx+iDnycrZ/mgEe+/jolJv6sy6pQo3q4Yha5BB\nkzQlC030XBm/GJedxun0IXUryw2aHMy1B2aL4H7JcMVotk7u8WRgZyDGTXbpcZpz\nN7q8PPGDrS3oJM/vggS7+OB4LrwWd2Ur3g9SFi4uRT3hyvk7YZ3fwEvz/NBZyUFo\nP8j8u9z/iS67F1g0st4XpWth4Dr3Nn/yY4LtBjXocH7xfZzZaWDukQb9/4j9Sm3z\n/HexgshN6n28oHAxSeGTXAiu9FDpTiWFPys2BveV0QKBgQDR0zCFvD02ZDgeZtqO\nz+lpXXuCfudNDUdokSP0EpwyLQgzIlce1rWz98maR7/PUmONsRPybHooySew2GYd\nr9zgG+Cw6JYu0m3O4sVI3tOVylI4iJwNkpizXA/9eczRBK3Mya8zVVxQ43kjLbnM\nzeQTg6+WQXCJezQ36fWGNaQmqQKBgQC3+Xgp+aGsNCQNsv7gZduNV+5ORKbRlQTM\nupvr+vu5SDr4Ud9LbNxrdtpr6VcZn0H8KMI3zYi7oc8AkpTYZ8/XTuDHdQtztQfz\nGAgFJGleWx9zaa+nrmcSI913DNonuzmB8F+nw1H5GSbwLq6X8Gn8vzi3ZW35/NV/\n+oDpLDai1wKBgEztvTCLH3Y9sEWVODR8DfvPhmUF2g/p+nBgJmpqGFJdKFB3GrH3\nzo65HnUuMSj18AIXFlUfaHpjpeW0sVvZCoYwMmUqIUXxaMkdY2+gIrscfqCzlWN0\nh//alRI+AdXwfThECbQsa7hMbjFzpldsdV6iPVI9k+EUBsUpRhd6u0BhAoGBALHH\nbqkRQ3vGvvhF+ioaA7loOS6FBLcOS58SzM2SsWFwPRvs8dxPDAkExzj0OWjXDsp/\nEH8gLHs0d3ZUL2WXm66x2GCl6DUdwNrWZBmj//ZgE9pRTJ6613seEUqTrtQqBf5c\nq/LPugz+kzQRyEGm3qSQnFwMteOWwTF0ftHUGc/tAoGBAJnhD+jkmqwfSwjIPRon\n1UVXxa0N4lNilr8KtAaUU1Q+wY/jmKByJKjz2VkcGIO8G3eu2JS1btogKpVsO9qn\nvM2p1ZkPu3z7YQcmrnBI+mytOzRC7FPYAmb3iH0AczWo4zDkvFlIl1ZrqgNAdwN/\n3ra1mUHGMW994IgWJqLTtu9S\n-----END PRIVATE KEY-----\n",
+  "client_email": "bug-reporter@unity-drive-manager.iam.gserviceaccount.com",
+  "client_id": "100838783859435819932",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bug-reporter%40unity-drive-manager.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

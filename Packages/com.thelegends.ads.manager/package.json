@@ -1,0 +1,32 @@
+{
+  "name": "com.thelegends.ads.manager",
+  "displayName": "Ads Manager",
+  "description": "Ads Manager description goes here.",
+  "keywords": [],
+  "version": "1.1.58",
+  "documentationUrl": "https://github.com/Unity-UPM-Packages/Advertise-Manager#documentation",
+  "changelogUrl": "https://github.com/Unity-UPM-Packages/Advertise-Manager/releases",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "repository": "https://github.com/Unity-UPM-Packages/Advertise-Manager.git",
+    "url": "https://github.com/Unity-UPM-Packages/Advertise-Manager.git"
+  },
+  "author": {
+    "name": "Unity-UPM-Packages",
+    "url": "https://github.com/Unity-UPM-Packages"
+  },
+  "dependencies": {
+    "com.thelegends.unity.ui": "1.0.6",
+    "com.thelegends.unity.patterns": "1.0.1"
+  },
+  "optionalDependencies": {
+    "com.thelegends.firebase.manager": "1.0.10",
+    "com.thelegends.appsflyer.manager": "1.0.10",
+    "com.google.ads.mobile": "9.6.0",
+    "com.applovin.mediation.ads": "8.1.0",
+    "com.thelegends.databuckets.manager": "1.0.0",
+    "com.thelegends.facebook.manager": "1.0.1"
+  },
+  "_fingerprint": "9c59c87f4ea08882236b8d38ab1ea49fe74ba196"
+}

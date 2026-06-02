@@ -1,0 +1,20 @@
+{
+    "name": "com.thelegends.ads.manager.Editor",
+    "rootNamespace": "com.thelegends.ads.manager.Editor",
+    "references": [
+        "GoogleMobileAds.Editor",
+        "com.thelegends.ads.manager",
+        "com.thelegends.unity.patterns"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

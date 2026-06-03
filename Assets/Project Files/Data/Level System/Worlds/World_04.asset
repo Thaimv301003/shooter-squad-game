@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   previewSprite: {fileID: 21300000, guid: 3d1b94860d7ba4844a3165d230e3b9bb, type: 3}
   uniqueWorldMusicClip: {fileID: 0}
-  worldType: 2
+  worldType: 4
   levels:
   - type: 0
     rooms:
@@ -859,6 +859,12 @@ MonoBehaviour:
         - {x: 2.6875, y: 0, z: -4.375}
         - {x: 5.8125, y: 0, z: -3.203125}
         - {x: 5.8125, y: 0, z: 1.484375}
+      - EnemyType: 2
+        Position: {x: 0, y: 0, z: 0}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        Scale: {x: 1, y: 1, z: 1}
+        IsElite: 0
+        PathPoints: []
       itemEntities:
       - Hash: 1290353828
         Position: {x: 3.90625, y: 0, z: -3.90625}
@@ -1583,7 +1589,7 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
-    xpAmount: 230
+    xpAmount: 120
     requiredUpg: 23
     enemiesLevel: 6
     hasCharacterSuggestion: 1
@@ -7537,7 +7543,7 @@ MonoBehaviour:
         Rotation: {x: 0, y: 0, z: 0, w: 1}
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
-    xpAmount: 299
+    xpAmount: 200
     requiredUpg: 27
     enemiesLevel: 7
     hasCharacterSuggestion: 0

@@ -800,7 +800,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 170
+      Amount: 300
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -1598,7 +1598,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 190
+      Amount: 320
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -2424,7 +2424,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 200
+      Amount: 330
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -3245,7 +3245,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 180
+      Amount: 350
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -3988,7 +3988,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 210
+      Amount: 550
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -4961,7 +4961,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 200
+      Amount: 360
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -5734,7 +5734,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 220
+      Amount: 380
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -6670,7 +6670,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 230
+      Amount: 400
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -7552,7 +7552,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 250
+      Amount: 420
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -7782,7 +7782,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 300
+      Amount: 1000
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []

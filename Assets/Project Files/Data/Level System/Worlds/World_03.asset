@@ -166,7 +166,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 90
+      Amount: 200
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -538,7 +538,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 100
+      Amount: 210
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -1008,7 +1008,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 140
+      Amount: 220
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -1651,7 +1651,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 120
+      Amount: 230
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -2390,7 +2390,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 150
+      Amount: 350
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -3344,16 +3344,16 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       chestEntities: []
       roomCustomObjects: []
-    xpAmount: 11020
-    requiredUpg: 5
-    enemiesLevel: 1
+    xpAmount: 120
+    requiredUpg: 20
+    enemiesLevel: 5
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5
     dropData:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 130
+      Amount: 240
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -4238,7 +4238,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 120
+      Amount: 250
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -5010,7 +5010,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 160
+      Amount: 260
       Character: {fileID: 0}
       Level: 0
     - DropType: 1
@@ -5913,7 +5913,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 140
+      Amount: 280
       Character: {fileID: 0}
       Level: 0
     specialBehaviours: []
@@ -6137,7 +6137,7 @@ MonoBehaviour:
     - DropType: 0
       CurrencyType: 0
       Weapon: {fileID: 0}
-      Amount: 220
+      Amount: 600
       Character: {fileID: 0}
       Level: 0
     - DropType: 1

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using Watermelon.LevelSystem;
 
 namespace Watermelon.SquadShooter
 {
@@ -8,7 +9,7 @@ namespace Watermelon.SquadShooter
     {
         [SerializeField] float hp;
         private int calculatedHp;
-        public float Hp => calculatedHp * difficulty.HealthMult;
+        public float Hp => calculatedHp * difficulty.HealthMult * GetLoopMultiplier();
 
         [SerializeField] float visionRange;
         public float VisionRange => visionRange;
@@ -22,7 +23,7 @@ namespace Watermelon.SquadShooter
         [SerializeField] DuoInt damage;
         private DuoInt calculatedDamage;
 
-        public DuoInt Damage => calculatedDamage * difficulty.DamageMult;
+        public DuoInt Damage => calculatedDamage * difficulty.DamageMult * GetLoopMultiplier();
 
         [SerializeField] float aimDuration;
         public float AimDuration => aimDuration;
@@ -116,6 +117,17 @@ namespace Watermelon.SquadShooter
             float hpSpreadUp = (float)healForPlayer.secondValue / (float)healForPlayer.Lerp(0.5f);
             float hpSpreadDown = (float)healForPlayer.firstValue / (float)healForPlayer.Lerp(0.5f);
             calculatedHpForPlayer = new DuoInt((int)(restoredHpMid * hpSpreadDown), (int)(restoredHpMid * hpSpreadUp));
+        }
+
+        private float GetLoopMultiplier()
+        {
+            var levelSave = SaveController.GetSaveObject<LevelSave>("level");
+            if (levelSave != null)
+            {
+                // Độ khó tăng tuyến tính 15% cho mỗi World tiếp theo (World 1: 1.0x, World 4: 1.45x, World 5: 1.6x,...)
+                return 1.0f + levelSave.WorldIndex * 0.15f;
+            }
+            return 1.0f;
         }
 
         [System.Serializable]

@@ -18,6 +18,7 @@ public class CameraManagerC : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+   
 
     public void StackSceneInit()
     {

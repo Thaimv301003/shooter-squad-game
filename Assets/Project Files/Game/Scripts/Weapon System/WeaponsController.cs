@@ -204,5 +204,7 @@ namespace Watermelon.SquadShooter
         }
 
         public delegate void WeaponDelagate(WeaponData weapon);
+        
     }
+    
 }

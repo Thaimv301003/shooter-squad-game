@@ -792,8 +792,8 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 100
-    requiredUpg: 11
-    enemiesLevel: 2
+    requiredUpg: 15
+    enemiesLevel: 3
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5
     dropData:
@@ -1590,8 +1590,8 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 100
-    requiredUpg: 12
-    enemiesLevel: 2
+    requiredUpg: 15
+    enemiesLevel: 3
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -2416,8 +2416,8 @@ MonoBehaviour:
       chestEntities: []
       roomCustomObjects: []
     xpAmount: 120
-    requiredUpg: 12
-    enemiesLevel: 2
+    requiredUpg: 15
+    enemiesLevel: 3
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -3237,8 +3237,8 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 100
-    requiredUpg: 13
-    enemiesLevel: 2
+    requiredUpg: 22
+    enemiesLevel: 5
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -3980,8 +3980,8 @@ MonoBehaviour:
       chestEntities: []
       roomCustomObjects: []
     xpAmount: 150
-    requiredUpg: 13
-    enemiesLevel: 3
+    requiredUpg: 22
+    enemiesLevel: 5
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -4953,8 +4953,8 @@ MonoBehaviour:
       chestEntities: []
       roomCustomObjects: []
     xpAmount: 100
-    requiredUpg: 14
-    enemiesLevel: 3
+    requiredUpg: 22
+    enemiesLevel: 5
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -5726,8 +5726,8 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 110
-    requiredUpg: 15
-    enemiesLevel: 3
+    requiredUpg: 28
+    enemiesLevel: 7
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5
     dropData:
@@ -6662,8 +6662,8 @@ MonoBehaviour:
       chestEntities: []
       roomCustomObjects: []
     xpAmount: 110
-    requiredUpg: 15
-    enemiesLevel: 3
+    requiredUpg: 28
+    enemiesLevel: 7
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
     dropData:
@@ -7544,8 +7544,8 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 150
-    requiredUpg: 15
-    enemiesLevel: 3
+    requiredUpg: 28
+    enemiesLevel: 7
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5
     dropData:
@@ -7774,8 +7774,8 @@ MonoBehaviour:
       chestEntities: []
       roomCustomObjects: []
     xpAmount: 200
-    requiredUpg: 16
-    enemiesLevel: 4
+    requiredUpg: 35
+    enemiesLevel: 10
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5
     dropData:

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c62de01cc2460429c6915c04e5a9e8, type: 3}
+  m_Name: Character 5
+  m_EditorClassIdentifier: 
+  id: char_5_vance
+  characterName: Vance
+  requiredLevel: 10
+  previewSprite: {fileID: 21300000, guid: 02200322b8cad0f4ab1c5d3c0eb9a128, type: 3}
+  lockedSprite: {fileID: 21300000, guid: d4321a8adb26e7c479f9dbaf87594f69, type: 3}
+  dropPrefab: {fileID: 7838959996987145679, guid: 9fb3656f1044b8c46aa62c6db7b3dba6,
+    type: 3}
+  stages:
+  - previewSprite: {fileID: 21300000, guid: 02200322b8cad0f4ab1c5d3c0eb9a128, type: 3}
+    lockedSprite: {fileID: 21300000, guid: d4321a8adb26e7c479f9dbaf87594f69, type: 3}
+    prefab: {fileID: 6148347664831866679, guid: bc55126d2c417d34995c7b8fe1069384,
+      type: 3}
+    healthBarOffset: {x: 0, y: 2.8125, z: 0}
+  upgrades:
+  - currencyType: 0
+    price: 0
+    stats:
+      health: 320
+      bulletDamageMultiplier: 1
+      power: 160
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1
+  - currencyType: 0
+    price: 800
+    stats:
+      health: 335
+      bulletDamageMultiplier: 1
+      power: 172
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1
+  - currencyType: 0
+    price: 1000
+    stats:
+      health: 350
+      bulletDamageMultiplier: 1
+      power: 184
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1
+  - currencyType: 0
+    price: 1200
+    stats:
+      health: 365
+      bulletDamageMultiplier: 1
+      power: 196
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1
+  - currencyType: 0
+    price: 1400
+    stats:
+      health: 380
+      bulletDamageMultiplier: 1
+      power: 208
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1
+  - currencyType: 0
+    price: 1600
+    stats:
+      health: 400
+      bulletDamageMultiplier: 1
+      power: 220
+      keyUpgradeNumber: -1
+    changeStage: 0
+    stageIndex: -1

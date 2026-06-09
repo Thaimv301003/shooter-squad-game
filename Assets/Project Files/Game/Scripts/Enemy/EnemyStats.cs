@@ -106,12 +106,14 @@ namespace Watermelon.SquadShooter
             WeaponData currentWeapon = WeaponsController.GetCurrentWeapon();
             HpToWeaponRelation relation = enemyHpToCreatureDmgRelations.Find(r => r.weapon.Equals(currentWeapon));
 
-            calculatedHp = (int)(creatureDamage * relation.enemyHpToCreatureDmg);
+            calculatedHp = (int)(creatureDamage * relation.enemyHpToCreatureDmg * 3.0f); // Nhân 3 lần lượng HP gốc của quái để tăng độ trâu
+
 
             float dmgMid = characterHealth / enemyDmgToPlayerHp;
             float damageSpreadUp = (float)damage.secondValue / (float)damage.Lerp(0.5f);
             float damageSpreadDown = (float)damage.firstValue / (float)damage.Lerp(0.5f);
-            calculatedDamage = new DuoInt((int)(dmgMid * damageSpreadDown), (int)(dmgMid * damageSpreadUp));
+            calculatedDamage = new DuoInt((int)(dmgMid * damageSpreadDown * 0.5f), (int)(dmgMid * damageSpreadUp * 0.5f)); // Giảm 50% sát thương gốc để người chơi dễ thở hơn
+
 
             float restoredHpMid = dmgMid * restoredHpToDamage;
             float hpSpreadUp = (float)healForPlayer.secondValue / (float)healForPlayer.Lerp(0.5f);
@@ -124,8 +126,8 @@ namespace Watermelon.SquadShooter
             var levelSave = SaveController.GetSaveObject<LevelSave>("level");
             if (levelSave != null)
             {
-                // Độ khó tăng tuyến tính 15% cho mỗi World tiếp theo (World 1: 1.0x, World 4: 1.45x, World 5: 1.6x,...)
-                return 1.0f + levelSave.WorldIndex * 0.15f;
+                // Phương án B: Độ khó tăng mạnh tuyến tính 50% cho mỗi World tiếp theo (World 1: 1.0x, World 2: 1.5x, World 3: 2.0x, World 4: 2.5x, World 5: 3.0x,...)
+                return 1.0f + levelSave.WorldIndex * 0.50f;
             }
             return 1.0f;
         }

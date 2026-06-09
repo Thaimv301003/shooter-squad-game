@@ -37,7 +37,8 @@ namespace Watermelon.SquadShooter
 
             save = SaveController.GetSaveObject<GlobalWeaponsSave>("weapon_save");
 
-            weapons = database.Weapons;
+            weapons = database.Weapons.Where(w => w != null).ToArray();
+
 
             for (int i = 0; i < weapons.Length; i++)
             {

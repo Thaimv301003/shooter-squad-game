@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using UnityEngine;
 using Watermelon;
 
@@ -12,7 +12,8 @@ namespace Watermelon.SquadShooter
 
         public void Init()
         {
-            characters.OrderBy(c => c.RequiredLevel);
+            // Lọc bỏ các nhân vật null để tránh gây lỗi NullReferenceException nếu asset chưa load kịp
+            characters = characters.Where(c => c != null).OrderBy(c => c.RequiredLevel).ToArray();
 
             for (int i = 0; i < characters.Length; i++)
             {

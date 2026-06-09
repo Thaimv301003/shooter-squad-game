@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: wp_plasma_01
   weaponName: PLASMA
-  rarity: 1
+  rarity: 2
   icon: {fileID: 21300000, guid: 96f48177d01e5c0419ff1e59b578c5ee, type: 3}
   dropPrefab: {fileID: 1389576873994749239, guid: 65d7aa2a66357f544888cea8e4d34215,
     type: 3}
@@ -29,7 +29,7 @@ MonoBehaviour:
     damage:
       firstValue: 30
       secondValue: 50
-    rangeRadius: 8.0
+    rangeRadius: 8
     fireRate: 8
     spread: 4
     power: 30
@@ -37,8 +37,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: 0
   - price: 0
     currencyType: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
     damage:
       firstValue: 35
       secondValue: 55
-    rangeRadius: 8.0
+    rangeRadius: 8
     fireRate: 8
     spread: 4
     power: 35
@@ -58,8 +58,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: 0
   - price: 150
     currencyType: 0
@@ -79,8 +79,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: 2
   - price: 250
     currencyType: 0
@@ -100,8 +100,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: 4
   - price: 400
     currencyType: 0
@@ -121,8 +121,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: 5
   - price: 600
     currencyType: 0
@@ -142,8 +142,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1
   - price: 800
     currencyType: 0
@@ -157,14 +157,14 @@ MonoBehaviour:
       secondValue: 155
     rangeRadius: 8.5
     fireRate: 13
-    spread: 3.0
+    spread: 3
     power: 115
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1
   - price: 1000
     currencyType: 0
@@ -184,8 +184,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1
   - price: 1300
     currencyType: 0
@@ -205,8 +205,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1
   - price: 1600
     currencyType: 0
@@ -218,7 +218,7 @@ MonoBehaviour:
     damage:
       firstValue: 140
       secondValue: 225
-    rangeRadius: 9.0
+    rangeRadius: 9
     fireRate: 16
     spread: 2.4
     power: 175
@@ -226,8 +226,8 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1
   - price: 2000
     currencyType: 0
@@ -239,14 +239,14 @@ MonoBehaviour:
     damage:
       firstValue: 150
       secondValue: 250
-    rangeRadius: 9.0
+    rangeRadius: 9
     fireRate: 18
-    spread: 2.0
+    spread: 2
     power: 200
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 25.0
-      secondValue: 25.0
+      firstValue: 25
+      secondValue: 25
     keyUpgradeNumber: -1

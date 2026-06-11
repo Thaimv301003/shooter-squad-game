@@ -4254,7 +4254,7 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 120
-    requiredUpg: 65
+    requiredUpg: 60
     enemiesLevel: 18
     hasCharacterSuggestion: 1
     healSpawnPercent: 0.5
@@ -5026,7 +5026,7 @@ MonoBehaviour:
         Scale: {x: 1, y: 1, z: 1}
       roomCustomObjects: []
     xpAmount: 120
-    requiredUpg: 65
+    requiredUpg: 60
     enemiesLevel: 18
     hasCharacterSuggestion: 0
     healSpawnPercent: 0.5

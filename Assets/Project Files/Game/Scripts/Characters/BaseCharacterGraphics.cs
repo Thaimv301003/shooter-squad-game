@@ -57,6 +57,12 @@ namespace Watermelon.SquadShooter
         [SerializeField] Transform teslaHolderTransform;
         public Transform TeslaHolderTransform => teslaHolderTransform;
 
+        [SerializeField] Transform rifleHolderTransform;
+        public Transform RifleHolderTransform => rifleHolderTransform;
+
+        [SerializeField] Transform sniperHolderTransform;
+        public Transform SniperHolderTransform => sniperHolderTransform;
+
         [Space]
         [SerializeField] Rig mainRig;
         [SerializeField] Transform leftHandController;
@@ -339,6 +345,22 @@ namespace Watermelon.SquadShooter
                     teslaHolderObject.transform.localPosition = new Vector3(0.213f, 0.783f, 0.357f);
 
                     teslaHolderTransform = teslaHolderObject.transform;
+
+                    // Rifle
+                    GameObject rifleHolderObject = new GameObject("Rifle Holder");
+                    rifleHolderObject.transform.SetParent(weaponsTransform);
+                    rifleHolderObject.transform.ResetLocal();
+                    rifleHolderObject.transform.localPosition = new Vector3(0.22f, 0.6735f, 0.23f);
+
+                    rifleHolderTransform = rifleHolderObject.transform;
+
+                    // Sniper
+                    GameObject sniperHolderObject = new GameObject("Sniper Holder");
+                    sniperHolderObject.transform.SetParent(weaponsTransform);
+                    sniperHolderObject.transform.ResetLocal();
+                    sniperHolderObject.transform.localPosition = new Vector3(0.22f, 0.6735f, 0.23f);
+
+                    sniperHolderTransform = sniperHolderObject.transform;
 
                     // Initialise mesh renderer
                     meshRenderer = tempAnimator.transform.GetComponentInChildren<SkinnedMeshRenderer>();

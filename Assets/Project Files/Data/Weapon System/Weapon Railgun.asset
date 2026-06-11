@@ -15,21 +15,21 @@ MonoBehaviour:
   id: wp_railgun_02
   weaponName: RAILGUN
   rarity: 3
-  icon: {fileID: 21300000, guid: 96f48177d01e5c0419ff1e59b578c5ee, type: 3}
+  icon: {fileID: 21300000, guid: 9effab03fb325488a8725887676e0697, type: 3}
   dropPrefab: {fileID: 1389576873994749239, guid: 65d7aa2a66357f544888cea8e4d34215,
     type: 3}
   upgrades:
   - price: 0
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
     damage:
       firstValue: 50
       secondValue: 80
-    rangeRadius: 9.0
+    rangeRadius: 9
     fireRate: 4
     spread: 1
     power: 50
@@ -37,20 +37,20 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: 0
   - price: 0
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
     damage:
       firstValue: 60
       secondValue: 95
-    rangeRadius: 9.0
+    rangeRadius: 9
     fireRate: 4
     spread: 1
     power: 65
@@ -58,13 +58,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: 0
   - price: 300
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -79,13 +79,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: 2
   - price: 500
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -100,13 +100,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: 4
   - price: 800
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -121,13 +121,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: 5
   - price: 1200
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -142,13 +142,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: -1
   - price: 1800
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -163,13 +163,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: -1
   - price: 2500
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -184,13 +184,13 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: -1
   - price: 3500
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 60d8b7dff4bbbbc4db793104d2c025a1,
+    weaponPrefab: {fileID: 5454130962595715143, guid: b1625e5a559ce419394bc0f33202ae80,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: 557f547da59937549b446b57778d73bb,
       type: 3}
@@ -205,6 +205,6 @@ MonoBehaviour:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40.0
-      secondValue: 40.0
+      firstValue: 40
+      secondValue: 40
     keyUpgradeNumber: -1

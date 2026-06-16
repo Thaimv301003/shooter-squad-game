@@ -196,7 +196,10 @@ namespace Watermelon.SquadShooter
 
             characterAnimator.enabled = false;
 
-            characterBehaviour.Weapon.gameObject.SetActive(false);
+            if (characterBehaviour.Weapon != null)
+            {
+                characterBehaviour.Weapon.gameObject.SetActive(false);
+            }
 
             ragdoll?.ActivateWithForce(transform.position + transform.forward, 700, 100);
         }
@@ -207,7 +210,10 @@ namespace Watermelon.SquadShooter
 
             mainRig.weight = 1.0f;
 
-            characterBehaviour.Weapon.gameObject.SetActive(true);
+            if (characterBehaviour.Weapon != null)
+            {
+                characterBehaviour.Weapon.gameObject.SetActive(true);
+            }
             characterAnimator.enabled = true;
         }
 

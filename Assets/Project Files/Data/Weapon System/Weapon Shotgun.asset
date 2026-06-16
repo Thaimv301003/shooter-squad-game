@@ -22,15 +22,15 @@ MonoBehaviour:
   - price: 5
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 35
-      secondValue: 40
-    rangeRadius: 6.25
-    fireRate: 0.8
+      firstValue: 25
+      secondValue: 28
+    rangeRadius: 10
+    fireRate: 0.84
     spread: 60
     power: 27
     bulletsPerShot:
@@ -43,15 +43,15 @@ MonoBehaviour:
   - price: 5
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 35
-      secondValue: 40
-    rangeRadius: 6.25
-    fireRate: 0.8
+      firstValue: 25
+      secondValue: 28
+    rangeRadius: 10
+    fireRate: 0.91
     spread: 60
     power: 27
     bulletsPerShot:
@@ -64,15 +64,15 @@ MonoBehaviour:
   - price: 120
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 27
-      secondValue: 30
-    rangeRadius: 6.25
-    fireRate: 0.85
+      firstValue: 19
+      secondValue: 21
+    rangeRadius: 10
+    fireRate: 0.98
     spread: 30
     power: 33
     bulletsPerShot:
@@ -85,15 +85,15 @@ MonoBehaviour:
   - price: 130
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 16
-      secondValue: 45
-    rangeRadius: 6.25
-    fireRate: 0.9
+      firstValue: 11
+      secondValue: 32
+    rangeRadius: 10
+    fireRate: 1.05
     spread: 30
     power: 38
     bulletsPerShot:
@@ -106,15 +106,15 @@ MonoBehaviour:
   - price: 150
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 0.95
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.12
     spread: 30
     power: 45
     bulletsPerShot:
@@ -127,15 +127,15 @@ MonoBehaviour:
   - price: 170
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.19
     spread: 30
     power: 51
     bulletsPerShot:
@@ -148,15 +148,15 @@ MonoBehaviour:
   - price: 300
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1.05
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.26
     spread: 30
     power: 56
     bulletsPerShot:
@@ -169,15 +169,15 @@ MonoBehaviour:
   - price: 310
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1.1
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.33
     spread: 30
     power: 63
     bulletsPerShot:
@@ -190,15 +190,15 @@ MonoBehaviour:
   - price: 335
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1.12
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.40
     spread: 30
     power: 69
     bulletsPerShot:
@@ -211,38 +211,17 @@ MonoBehaviour:
   - price: 420
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
+    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
     damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1.15
+      firstValue: 15
+      secondValue: 35
+    rangeRadius: 10
+    fireRate: 1.54
     spread: 30
     power: 74
-    bulletsPerShot:
-      firstValue: 3
-      secondValue: 3
-    bulletSpeed:
-      firstValue: 18.75
-      secondValue: 28.125
-    keyUpgradeNumber: -1
-  - price: 500
-    currencyType: 0
-    previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 853a1aed120851c4e8fa2018832dcad8,
-      type: 3}
-    bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
-      type: 3}
-    damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 1.2
-    spread: 30
-    power: 81
     bulletsPerShot:
       firstValue: 3
       secondValue: 3

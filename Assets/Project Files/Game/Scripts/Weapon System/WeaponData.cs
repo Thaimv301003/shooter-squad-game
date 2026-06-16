@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 namespace Watermelon.SquadShooter
 {
@@ -39,7 +39,8 @@ namespace Watermelon.SquadShooter
 
         public WeaponUpgrade GetCurrentUpgrade()
         {
-            return upgrades[save.UpgradeLevel];
+            if (upgrades.Length == 0) return null;
+            return upgrades[Mathf.Clamp(save.UpgradeLevel, 0, upgrades.Length - 1)];
         }
 
         public WeaponUpgrade GetNextUpgrade()

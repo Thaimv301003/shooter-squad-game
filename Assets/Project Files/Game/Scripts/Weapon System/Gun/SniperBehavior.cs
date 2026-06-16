@@ -71,7 +71,8 @@ namespace Watermelon.SquadShooter
 
             shootDirection = characterBehaviour.ClosestEnemyBehaviour.transform.position.SetY(shootPoint.position.y) - shootPoint.position;
 
-            if (Physics.Raycast(transform.position, shootDirection, out var hitInfo, 300f, targetLayers))
+            var raycastOrigin = shootPoint.position - shootDirection.normalized * 0.5f;
+            if (Physics.Raycast(raycastOrigin, shootDirection, out var hitInfo, 300f, targetLayers))
             {
                 if (hitInfo.collider.gameObject.layer == PhysicsHelper.LAYER_ENEMY)
                 {
@@ -93,9 +94,10 @@ namespace Watermelon.SquadShooter
 
                         int bulletsNumber = weapon.GetCurrentUpgrade().BulletsPerShot.Random();
 
+                        Vector3 targetEuler = Quaternion.LookRotation(shootDirection).eulerAngles;
                         for (int i = 0; i < bulletsNumber; i++)
                         {
-                            PlayerBulletBehavior bullet = bulletPool.GetPooledObject().SetPosition(shootPoint.position).SetEulerAngles(characterBehaviour.transform.eulerAngles).GetComponent<PlayerBulletBehavior>();
+                            PlayerBulletBehavior bullet = bulletPool.GetPooledObject().SetPosition(shootPoint.position).SetEulerAngles(targetEuler).GetComponent<PlayerBulletBehavior>();
                             bullet.Init(damage.Random() * characterBehaviour.Stats.BulletDamageMultiplier, bulletSpeed.Random(), characterBehaviour.ClosestEnemyBehaviour, bulletDisableTime);
                             bullet.transform.Rotate(new Vector3(0f, i == 0 ? 0f : Random.Range(bulletSpreadAngle * -0.5f, bulletSpreadAngle * 0.5f), 0f));
                         }

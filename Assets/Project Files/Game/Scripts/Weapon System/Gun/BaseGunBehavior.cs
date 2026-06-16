@@ -21,6 +21,13 @@ namespace Watermelon.SquadShooter
         [SerializeField] Vector3 upgradeParticleOffset;
         [SerializeField] float upgradeParticleSize = 1.0f;
 
+        [Header("Custom Offsets")]
+        [SerializeField] bool useCustomOffsets;
+        [SerializeField] Vector3 lobbyPosition;
+        [SerializeField] Vector3 lobbyRotation;
+        [SerializeField] Vector3 gameplayPosition;
+        [SerializeField] Vector3 gameplayRotation;
+
         protected CharacterBehaviour characterBehaviour;
         protected WeaponData weapon;
 
@@ -39,6 +46,46 @@ namespace Watermelon.SquadShooter
         {
             this.characterBehaviour = characterBehaviour;
             this.weapon = data;
+        }
+
+        public void UpdateOffset(bool isInGame)
+        {
+            if (!useCustomOffsets) return;
+
+            Transform visualTransform = transform.Find("GunOffset");
+            if (visualTransform == null)
+            {
+                visualTransform = transform.Find("Shotgun_muzzle");
+            }
+            if (visualTransform == null)
+            {
+                visualTransform = transform.Find("lazel");
+            }
+            if (visualTransform == null)
+            {
+                visualTransform = transform.Find("lazel Variant");
+            }
+            if (visualTransform == null)
+            {
+                if (transform.childCount > 0)
+                {
+                    visualTransform = transform.GetChild(0);
+                }
+            }
+
+            if (visualTransform != null)
+            {
+                if (isInGame)
+                {
+                    visualTransform.localPosition = gameplayPosition;
+                    visualTransform.localRotation = Quaternion.Euler(gameplayRotation);
+                }
+                else
+                {
+                    visualTransform.localPosition = lobbyPosition;
+                    visualTransform.localRotation = Quaternion.Euler(lobbyRotation);
+                }
+            }
         }
 
         public void InitCharacter(BaseCharacterGraphics characterGraphics)

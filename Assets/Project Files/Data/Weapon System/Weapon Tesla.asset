@@ -229,24 +229,3 @@ MonoBehaviour:
       firstValue: 12.5
       secondValue: 12.5
     keyUpgradeNumber: -1
-  - price: 800
-    currencyType: 0
-    previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6347890837037930244, guid: 7dcb1c770f6ca3049901423a2518a007,
-      type: 3}
-    bulletPrefab: {fileID: 7995167561492624291, guid: 6d6abdbe3a5c2054996cd0238671e0a6,
-      type: 3}
-    damage:
-      firstValue: 24
-      secondValue: 30
-    rangeRadius: 6.25
-    fireRate: 3
-    spread: 0
-    power: 135
-    bulletsPerShot:
-      firstValue: 1
-      secondValue: 1
-    bulletSpeed:
-      firstValue: 12.5
-      secondValue: 12.5
-    keyUpgradeNumber: -1

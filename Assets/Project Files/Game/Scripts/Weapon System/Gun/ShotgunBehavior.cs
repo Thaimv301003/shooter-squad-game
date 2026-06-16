@@ -71,7 +71,8 @@ namespace Watermelon.SquadShooter
 
             shootDirection = characterBehaviour.ClosestEnemyBehaviour.transform.position.SetY(shootPoint.position.y) - shootPoint.position;
 
-            if (Physics.Raycast(transform.position, shootDirection, out var hitInfo, 300f, targetLayers))
+            var raycastOrigin = shootPoint.position - shootDirection.normalized * 0.5f;
+            if (Physics.Raycast(raycastOrigin, shootDirection, out var hitInfo, 300f, targetLayers))
             {
                 if (hitInfo.collider.gameObject.layer == PhysicsHelper.LAYER_ENEMY)
                 {

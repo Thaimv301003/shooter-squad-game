@@ -85,7 +85,8 @@ namespace Watermelon.SquadShooter
 
         public CharacterUpgrade GetCurrentUpgrade()
         {
-            return upgrades[save.UpgradeLevel];
+            if (upgrades.Length == 0) return null;
+            return upgrades[Mathf.Clamp(save.UpgradeLevel, 0, upgrades.Length - 1)];
         }
 
         public CharacterUpgrade GetNextUpgrade()

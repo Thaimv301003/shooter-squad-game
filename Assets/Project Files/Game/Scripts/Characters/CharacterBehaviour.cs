@@ -355,6 +355,7 @@ namespace Watermelon.SquadShooter
             if (gunBehaviour != null)
             {
                 gunBehaviour.Init(this, weapon);
+                gunBehaviour.UpdateOffset(isActive);
 
                 Vector3 defaultScale = gunBehaviour.transform.localScale;
 
@@ -466,6 +467,9 @@ namespace Watermelon.SquadShooter
             graphics.Activate();
 
             NavMeshController.InvokeOrSubscribe(this);
+
+            if (gunBehaviour != null)
+                gunBehaviour.UpdateOffset(true);
         }
 
         public void Disable()
@@ -493,6 +497,9 @@ namespace Watermelon.SquadShooter
 
                 speed = 0;
             }
+
+            if (gunBehaviour != null)
+                gunBehaviour.UpdateOffset(false);
         }
 
         public void MoveForwardAndDisable(float duration)

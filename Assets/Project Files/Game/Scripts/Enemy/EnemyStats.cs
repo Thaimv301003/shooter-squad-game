@@ -106,7 +106,7 @@ namespace Watermelon.SquadShooter
             WeaponData currentWeapon = WeaponsController.GetCurrentWeapon();
             HpToWeaponRelation relation = enemyHpToCreatureDmgRelations.Find(r => r.weapon.Equals(currentWeapon));
 
-            calculatedHp = (int)(creatureDamage * relation.enemyHpToCreatureDmg * 3.0f); // Nhân 3 lần lượng HP gốc của quái để tăng độ trâu
+            calculatedHp = (int)(creatureDamage * relation.enemyHpToCreatureDmg * 1.2f); // Nhân 1.2 lần lượng HP gốc của quái để người chơi dễ thở hơn
 
 
             float dmgMid = characterHealth / enemyDmgToPlayerHp;

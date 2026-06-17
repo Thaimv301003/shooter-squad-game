@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapon Plasma
   m_EditorClassIdentifier: 
   id: wp_plasma_01
-  weaponName: PLASMA
+  weaponName: M4A1
   rarity: 2
   icon: {fileID: 21300000, guid: b107e79f12ce54a808d14d6fc8f34468, type: 3}
   dropPrefab: {fileID: 6542036962367109390, guid: f9fe9754220386a4b8ab71993530c1bd,
@@ -32,7 +32,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 60
-    power: 27
+    power: 30
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -53,7 +53,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 60
-    power: 27
+    power: 35
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -61,7 +61,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: -1
-  - price: 120
+  - price: 100
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -74,7 +74,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 33
+    power: 42
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -82,7 +82,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: 7
-  - price: 130
+  - price: 140
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -95,7 +95,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 38
+    power: 48
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -103,7 +103,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: 8
-  - price: 150
+  - price: 180
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -116,7 +116,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 45
+    power: 55
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -124,7 +124,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: 10
-  - price: 170
+  - price: 230
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -137,7 +137,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 51
+    power: 62
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -145,7 +145,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: -1
-  - price: 300
+  - price: 290
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -158,7 +158,7 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 1.05
     spread: 30
-    power: 56
+    power: 68
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
@@ -166,7 +166,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: -1
-  - price: 310
+  - price: 350
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
@@ -179,31 +179,10 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 63
+    power: 75
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
-    bulletSpeed:
-      firstValue: 18.75
-      secondValue: 28.125
-    keyUpgradeNumber: -1
-  - price: 335
-    currencyType: 0
-    previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
-      type: 3}
-    bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
-      type: 3}
-    damage:
-      firstValue: 22
-      secondValue: 50
-    rangeRadius: 6.25
-    fireRate: 5
-    spread: 30
-    power: 69
-    bulletsPerShot:
-      firstValue: 3
-      secondValue: 3
     bulletSpeed:
       firstValue: 18.75
       secondValue: 28.125
@@ -221,7 +200,49 @@ MonoBehaviour:
     rangeRadius: 6.25
     fireRate: 5
     spread: 30
-    power: 74
+    power: 80
+    bulletsPerShot:
+      firstValue: 3
+      secondValue: 3
+    bulletSpeed:
+      firstValue: 18.75
+      secondValue: 28.125
+    keyUpgradeNumber: -1
+  - price: 500
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
+      type: 3}
+    bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
+      type: 3}
+    damage:
+      firstValue: 22
+      secondValue: 50
+    rangeRadius: 6.25
+    fireRate: 5
+    spread: 30
+    power: 85
+    bulletsPerShot:
+      firstValue: 1
+      secondValue: 1
+    bulletSpeed:
+      firstValue: 18.75
+      secondValue: 28.125
+    keyUpgradeNumber: -1
+  - price: 600
+    currencyType: 0
+    previewSprite: {fileID: 0}
+    weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,
+      type: 3}
+    bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
+      type: 3}
+    damage:
+      firstValue: 22
+      secondValue: 50
+    rangeRadius: 6.25
+    fireRate: 5
+    spread: 30
+    power: 92
     bulletsPerShot:
       firstValue: 1
       secondValue: 1

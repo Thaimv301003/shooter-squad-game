@@ -114,6 +114,18 @@ namespace Watermelon.SquadShooter
 
         public void UpdateHandRig()
         {
+            if (leftHandRigController == null || rightHandRigController == null) return;
+            if (activeHolderData == null)
+            {
+                Debug.LogWarning($"[BaseGunBehavior] activeHolderData is null for weapon {gameObject.name}!");
+                return;
+            }
+            if (activeHolderData.LeftHandHolder == null || activeHolderData.RightHandHolder == null)
+            {
+                Debug.LogWarning($"[BaseGunBehavior] LeftHandHolder or RightHandHolder is missing in GunHolder data for weapon {gameObject.name}! Please assign them in the prefab Inspector.");
+                return;
+            }
+
             leftHandRigController.position = activeHolderData.LeftHandHolder.position;
             rightHandRigController.position = activeHolderData.RightHandHolder.position;
 

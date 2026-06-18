@@ -234,7 +234,7 @@ MonoBehaviour:
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 6347890837037930244, guid: 7dcb1c770f6ca3049901423a2518a007,
       type: 3}
-    bulletPrefab: {fileID: 7995167561492624291, guid: 6d6abdbe3a5c2054996cd0238671e0a6,
+    bulletPrefab: {fileID: 6241060569393846184, guid: e30258ff01c0b3f44ac29bb5a7f4ef54,
       type: 3}
     damage:
       firstValue: 300

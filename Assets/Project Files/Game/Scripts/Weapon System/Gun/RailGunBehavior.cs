@@ -145,11 +145,11 @@ namespace Watermelon.SquadShooter
                 Vector3 targetEuler = Quaternion.LookRotation(shootDirection).eulerAngles;
                 for (int k = 0; k < bulletsNumber; k++)
                 {
-                    // Spawn piercing bullet
-                    RailgunBulletBehavior bullet = bulletPool.GetPooledObject()
+                    // Spawn piercing electric beam bullet
+                    ElectricBeamBulletBehavior bullet = bulletPool.GetPooledObject()
                         .SetPosition(shootPoint.position)
                         .SetEulerAngles(targetEuler + Vector3.up * Random.Range(-spread, spread))
-                        .GetComponent<RailgunBulletBehavior>();
+                        .GetComponent<ElectricBeamBulletBehavior>();
                     
                     if (bullet != null)
                     {

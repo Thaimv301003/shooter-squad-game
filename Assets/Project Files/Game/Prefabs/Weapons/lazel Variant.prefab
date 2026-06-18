@@ -72,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5291044322378667035}
   - component: {fileID: 6426386748574564829}
+  - component: {fileID: 1268642953331687340}
   m_Layer: 0
   m_Name: lazel Variant
   m_TagString: Untagged
@@ -127,6 +128,39 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 768
   bulletDisableTime: 1.2
+--- !u!114 &1268642953331687340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5454130962595715143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11330868663e3447b83286a28d387764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.SquadShooter.RailGunBehavior
+  characterShootAnimation: {fileID: 7400000, guid: a2673b84353c2cf4192ad92e8ff3b86f,
+    type: 2}
+  gunHolder:
+    defaultHolderData:
+      LeftHandHolder: {fileID: 0}
+      RightHandHolder: {fileID: 0}
+    holderDataOverrides: []
+  shootPoint: {fileID: 2605278196932680082}
+  upgradeParticleOffset: {x: 0, y: 0, z: 0}
+  upgradeParticleSize: 1
+  useCustomOffsets: 0
+  lobbyPosition: {x: 0, y: 0, z: 0}
+  lobbyRotation: {x: 0, y: 0, z: 0}
+  gameplayPosition: {x: 0, y: 0, z: 0}
+  gameplayRotation: {x: 0, y: 0, z: 0}
+  shootParticleSystem: {fileID: 1304033698843162030}
+  chargeLoopParticle: {fileID: 0}
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 768
+  chargeDuration: 1
 --- !u!1 &8000722599860327553
 GameObject:
   m_ObjectHideFlags: 0
@@ -259,7 +293,7 @@ PrefabInstance:
     - target: {fileID: 4372107589006239650, guid: 63ecb4bcc40132642b2dc424cbdf0bd6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.103
+      value: 0.174
       objectReference: {fileID: 0}
     - target: {fileID: 4372107589006239650, guid: 63ecb4bcc40132642b2dc424cbdf0bd6,
         type: 3}

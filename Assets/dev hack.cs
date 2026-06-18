@@ -7,11 +7,10 @@ public class CheatManager : MonoBehaviour
 {
     private void Update()
     {
-        // Nhận phím cho cả Input System cũ và mới để chắc chắn ăn phím
-        bool isCPressed = Input.GetKeyDown(KeyCode.C) || (UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.cKey.wasPressedThisFrame);
-        bool isHPressed = Input.GetKeyDown(KeyCode.H) || (UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.hKey.wasPressedThisFrame);
-        bool isVPressed = Input.GetKeyDown(KeyCode.V) || (UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.vKey.wasPressedThisFrame);
-        bool isKPressed = Input.GetKeyDown(KeyCode.K) || (UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.kKey.wasPressedThisFrame);
+        bool isCPressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.cKey.wasPressedThisFrame;
+        bool isHPressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.hKey.wasPressedThisFrame;
+        bool isVPressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.vKey.wasPressedThisFrame;
+        bool isKPressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.kKey.wasPressedThisFrame;
 
         // 1. Phím C: Hack Coins (Tiền vàng)
         if (isCPressed)

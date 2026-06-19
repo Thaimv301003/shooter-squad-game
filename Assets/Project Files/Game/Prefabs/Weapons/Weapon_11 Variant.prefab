@@ -63,8 +63,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2853597446209959728}
-  - {fileID: 2401911515395438330}
-  - {fileID: 468754509380880626}
   m_Father: {fileID: 4964487942982120888}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6073236771426098921
@@ -91,12 +89,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6073236771426098921}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07996576, y: 0.1048051, z: -0.89653647, w: 0.4228992}
-  m_LocalPosition: {x: 0.05922997, y: -0.2585, z: -0.072000004}
+  m_LocalRotation: {x: 0.07996579, y: 0.1048051, z: -0.89653647, w: 0.4228992}
+  m_LocalPosition: {x: -0.17377004, y: -0.2585, z: -0.07200001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2268624743467301539}
+  m_Father: {fileID: 4964487942982120888}
   m_LocalEulerAnglesHint: {x: 14.807, y: -93.246, z: -129.915}
 --- !u!1 &6617422917812759638
 GameObject:
@@ -122,12 +120,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6617422917812759638}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.01729579, y: 0.9349091, z: -0.33497652, w: 0.115916625}
-  m_LocalPosition: {x: 0.26473004, y: -0.0995, z: 0.17999998}
+  m_LocalRotation: {x: -0.017295776, y: 0.9349091, z: -0.33497655, w: 0.115916625}
+  m_LocalPosition: {x: 0.031730015, y: -0.0995, z: 0.18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2268624743467301539}
+  m_Father: {fileID: 4964487942982120888}
   m_LocalEulerAnglesHint: {x: 141.513, y: -106.95999, z: -188.078}
 --- !u!1001 &3861881900886486892
 PrefabInstance:
@@ -199,11 +197,19 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2268624743467301539}
+    - targetCorrespondingSourceObject: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2401911515395438330}
+    - targetCorrespondingSourceObject: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 468754509380880626}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8417480501510557195, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2373015027291653956}
+      addedObject: {fileID: 3266446116853906149}
   m_SourcePrefab: {fileID: 100100000, guid: fce0400497be8db44bec942129e38cb6, type: 3}
 --- !u!1 &4704234985967133031 stripped
 GameObject:
@@ -211,7 +217,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3861881900886486892}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2373015027291653956
+--- !u!114 &3266446116853906149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,15 +226,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4704234985967133031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 822f294dd61504545afa3cd9fb78bfd7, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b37bf0e6482b4a2faa906dbc271a675, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.SquadShooter.TeslaGunBehavior
+  m_EditorClassIdentifier: Assembly-CSharp::Watermelon.SquadShooter.RocketGunBehavior
   characterShootAnimation: {fileID: 7400000, guid: a2673b84353c2cf4192ad92e8ff3b86f,
     type: 2}
   gunHolder:
     defaultHolderData:
-      LeftHandHolder: {fileID: 0}
-      RightHandHolder: {fileID: 0}
+      LeftHandHolder: {fileID: 2401911515395438330}
+      RightHandHolder: {fileID: 468754509380880626}
     holderDataOverrides: []
   shootPoint: {fileID: 2853597446209959728}
   upgradeParticleOffset: {x: 0, y: 0, z: 0}
@@ -238,15 +244,11 @@ MonoBehaviour:
   lobbyRotation: {x: 0, y: 0, z: 0}
   gameplayPosition: {x: 0, y: 0, z: 0}
   gameplayRotation: {x: 0, y: 0, z: 0}
-  shootParticleSystem: {fileID: 4474779366186102591}
-  lightningLoopParticle: {fileID: 3367233265383636095}
+  shootParticleSystem: {fileID: 911637445972132125}
   targetLayers:
     serializedVersion: 2
     m_Bits: 768
-  chargeDuration: 0
-  targetsHitGoal:
-    firstValue: 0
-    secondValue: 0
+  bulletDisableTime: 3
 --- !u!4 &4964487942982120888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
@@ -313,12 +315,6 @@ PrefabInstance:
 --- !u!4 &4474779366171872865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 411752, guid: 5e8a137808d7d374487f34e236c723db,
-    type: 3}
-  m_PrefabInstance: {fileID: 4474779366171756041}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &4474779366186102591 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 19884342, guid: 5e8a137808d7d374487f34e236c723db,
     type: 3}
   m_PrefabInstance: {fileID: 4474779366171756041}
   m_PrefabAsset: {fileID: 0}
@@ -420,9 +416,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f20caca1d3c46ae4ead59c942585acca, type: 3}
---- !u!1 &3367233265383636095 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5977807008920101256, guid: f20caca1d3c46ae4ead59c942585acca,
+--- !u!198 &911637445972132125 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8136164426681752810, guid: f20caca1d3c46ae4ead59c942585acca,
     type: 3}
   m_PrefabInstance: {fileID: 8957588315231755767}
   m_PrefabAsset: {fileID: 0}

@@ -519,6 +519,7 @@ MonoBehaviour:
   teslaHolderTransform: {fileID: 7542486509285704926}
   rifleHolderTransform: {fileID: 8520095833079899427}
   sniperHolderTransform: {fileID: 843899273435108005}
+  railgunHolderTransform: {fileID: 8520095833079899427}
   mainRig: {fileID: 2432178721322063365}
   leftHandController: {fileID: 3524533464435158221}
   rightHandController: {fileID: 2275046911731308231}

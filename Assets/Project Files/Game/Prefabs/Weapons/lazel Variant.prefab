@@ -144,8 +144,8 @@ MonoBehaviour:
     type: 2}
   gunHolder:
     defaultHolderData:
-      LeftHandHolder: {fileID: 0}
-      RightHandHolder: {fileID: 0}
+      LeftHandHolder: {fileID: 5255192911800746496}
+      RightHandHolder: {fileID: 7478756356248349517}
     holderDataOverrides: []
   shootPoint: {fileID: 2605278196932680082}
   upgradeParticleOffset: {x: 0, y: 0, z: 0}

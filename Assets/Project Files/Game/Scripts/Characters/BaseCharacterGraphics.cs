@@ -227,6 +227,7 @@ namespace Watermelon.SquadShooter
 
 #if UNITY_EDITOR
         [Button("Prepare Model")]
+        [ContextMenu("Prepare Model")]
         public void PrepareModel()
         {
             // Get animator component

@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5806458904482113197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5806458904482113186}
+  - component: {fileID: 5806458904482113187}
+  - component: {fileID: 5806458904482113196}
+  - component: {fileID: 8656231496486195208}
+  m_Layer: 0
+  m_Name: CameraTakeScreenShot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5806458904482113186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806458904482113197}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.19134171, y: -0.33141357, z: 0.46193978, w: 0.8001032}
+  m_LocalPosition: {x: 0.6, y: 0, z: -0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -45.000004, z: 60.000004}
+--- !u!20 &5806458904482113187
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806458904482113197}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 100
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 3072
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &5806458904482113196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806458904482113197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6c86db5a0902a44b9a9949eed3d3dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraMain: {fileID: 5806458904482113187}
+  waitToTake: 1
+  gameObjects:
+  - {fileID: 8600744947803383037, guid: 800415a87b0b7d740945893208563c63, type: 3}
+  - {fileID: 6345268901995940408, guid: 2db8c8a568fd33c4689491abab499800, type: 3}
+  - {fileID: 6249080070553214053, guid: 97f5262b93083b549a15a2a9a8ef8e5b, type: 3}
+  - {fileID: 6992539205846667853, guid: 33bba74d846933c42b4d2d90fe3c0f7c, type: 3}
+  - {fileID: 8707090222299379482, guid: 04bf718b265f420419bb27c5aa337de9, type: 3}
+  - {fileID: 3599936332587973845, guid: 9cbf930aa8053fc43acc19d3e27f9427, type: 3}
+  - {fileID: 8770369645435727176, guid: 8b28978643a5bdb41ab4bfe71b62aa09, type: 3}
+  - {fileID: 4087647891048361576, guid: 56a8567cb7747b84d85b1770c9ee970f, type: 3}
+  - {fileID: 6497083903679223252, guid: 196d73076c0c0ac40bdd8edff2423f3d, type: 3}
+  - {fileID: 5400499242665248830, guid: 4cd9e2ca55ab9c0408a96d250c7cdb12, type: 3}
+  - {fileID: 6793759364108009915, guid: 4fc60ba8d4f7f174fb642af4f8ec9b04, type: 3}
+  - {fileID: 6513522985342247286, guid: ac4757637d8a19245a9008198ee79aed, type: 3}
+  - {fileID: 4962789066242630131, guid: d0d0bced8627c554dbfd4970a8d66ed0, type: 3}
+  - {fileID: 6821263354502778568, guid: 93947f9795b048849be0725a5403da2f, type: 3}
+  - {fileID: 1458582523405086640, guid: e5b2aa70ee4e55e499cc494a60c1e19d, type: 3}
+  - {fileID: 5205882389542131620, guid: 47a64689fdc98404ebcf050640e89ebc, type: 3}
+  - {fileID: 681386637230582716, guid: 9e6c1b51b6cb0e143a7ae2211ca66d1c, type: 3}
+  - {fileID: 4034665286023654309, guid: 26bf2e926be0af545a0e1d48099225c8, type: 3}
+  - {fileID: 3540163731275606613, guid: c5c5c29a5806cd447958d4edfab12ff1, type: 3}
+  - {fileID: 6873819190098866443, guid: 240d9d36e1465c64382836efc3048833, type: 3}
+  - {fileID: 7158320059138693729, guid: 362719fca8f3ac94c8ceace1079fa955, type: 3}
+  - {fileID: 6542036962367109390, guid: f9fe9754220386a4b8ab71993530c1bd, type: 3}
+  - {fileID: 8371279989015877882, guid: 37b057eb2e282ec4f9144049bb28a1c0, type: 3}
+  - {fileID: 6896526972595064444, guid: 82df8c26fc8483e4290ab7c4f135b82e, type: 3}
+  - {fileID: 1125343404059801765, guid: 565e4b8a1fccee2458c50df902a5898b, type: 3}
+  - {fileID: 978770256711852975, guid: 1ed7578e4163d6c45b02311e7876ba3a, type: 3}
+  - {fileID: 3727333817081281742, guid: 3172d199f9e76274f8397b13a2e32a54, type: 3}
+  - {fileID: 2351312207695131414, guid: 3e56ed0ab53976f4dbcb3cc826e4d0cf, type: 3}
+  - {fileID: 6282054455354911992, guid: 76340db79538a894bb91ff5bd53a3634, type: 3}
+  - {fileID: 8308747460187418943, guid: 4994fced9a3fb6a4ba66fbe42ee59fe8, type: 3}
+  - {fileID: 8417480501510557195, guid: fce0400497be8db44bec942129e38cb6, type: 3}
+  - {fileID: 5174705426653869729, guid: 4e1c923811279bc4c8e0075eaf149cc1, type: 3}
+  - {fileID: 1876308213038493133, guid: 60eb2f6c1f3a6554792cff49c30bd0be, type: 3}
+--- !u!114 &8656231496486195208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806458904482113197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2

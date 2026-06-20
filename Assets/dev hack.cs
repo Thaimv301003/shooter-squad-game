@@ -5,6 +5,8 @@ using Watermelon.LevelSystem;
 
 public class CheatManager : MonoBehaviour
 {
+    private bool showMenu = false; // Trạng thái ẩn/hiện menu trên mobile
+
     private void Update()
     {
         bool isCPressed = UnityEngine.InputSystem.Keyboard.current != null && UnityEngine.InputSystem.Keyboard.current.cKey.wasPressedThisFrame;
@@ -64,8 +66,17 @@ public class CheatManager : MonoBehaviour
             selectedLevelIndex = levelSave.LevelIndex;
         }
 
-        // Vẽ khung Cheat Menu ở góc trên bên trái
-        GUILayout.BeginArea(new Rect(15, 15, 230, 485));
+        // 1. Vẽ nút Toggle ẩn/hiện Menu Cheat (Dành riêng cho Mobile)
+        if (GUI.Button(new Rect(15, 15, 75, 40), showMenu ? "❌ CLOSE" : "⚙️ DEV"))
+        {
+            showMenu = !showMenu;
+        }
+
+        // Nếu menu đang ẩn thì không vẽ phần còn lại
+        if (!showMenu) return;
+
+        // Vẽ khung Cheat Menu ở góc trên bên trái, dịch xuống một chút để không đè lên nút Toggle
+        GUILayout.BeginArea(new Rect(15, 60, 230, 485));
         GUILayout.Box("🔧 DEV CHEAT MENU", GUILayout.Width(220));
 
         if (GUILayout.Button("💰 +1,000,000 Coins (Phím C)", GUILayout.Height(40), GUILayout.Width(220)))

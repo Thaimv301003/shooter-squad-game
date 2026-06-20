@@ -30,15 +30,15 @@ MonoBehaviour:
       firstValue: 50
       secondValue: 80
     rangeRadius: 9
-    fireRate: 4
+    fireRate: 2.4
     spread: 1
     power: 44
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: 0
   - price: 10
     currencyType: 0
@@ -51,15 +51,15 @@ MonoBehaviour:
       firstValue: 60
       secondValue: 95
     rangeRadius: 9
-    fireRate: 4
+    fireRate: 2.4
     spread: 1
     power: 52
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: 0
   - price: 150
     currencyType: 0
@@ -72,15 +72,15 @@ MonoBehaviour:
       firstValue: 80
       secondValue: 120
     rangeRadius: 9.2
-    fireRate: 5
+    fireRate: 3
     spread: 0.9
     power: 68
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: 2
   - price: 220
     currencyType: 0
@@ -93,15 +93,15 @@ MonoBehaviour:
       firstValue: 105
       secondValue: 155
     rangeRadius: 9.2
-    fireRate: 5
+    fireRate: 3
     spread: 0.8
     power: 88
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: 4
   - price: 300
     currencyType: 0
@@ -114,15 +114,15 @@ MonoBehaviour:
       firstValue: 135
       secondValue: 200
     rangeRadius: 9.5
-    fireRate: 6
+    fireRate: 3.6
     spread: 0.7
     power: 112
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: 5
   - price: 400
     currencyType: 0
@@ -135,15 +135,15 @@ MonoBehaviour:
       firstValue: 170
       secondValue: 250
     rangeRadius: 9.5
-    fireRate: 6
+    fireRate: 3.6
     spread: 0.6
     power: 140
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1
   - price: 520
     currencyType: 0
@@ -156,15 +156,15 @@ MonoBehaviour:
       firstValue: 200
       secondValue: 300
     rangeRadius: 9.5
-    fireRate: 7
+    fireRate: 4.3
     spread: 0.5
     power: 172
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1
   - price: 660
     currencyType: 0
@@ -177,15 +177,15 @@ MonoBehaviour:
       firstValue: 225
       secondValue: 330
     rangeRadius: 9.8
-    fireRate: 7
+    fireRate: 4.3
     spread: 0.4
     power: 204
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1
   - price: 820
     currencyType: 0
@@ -198,15 +198,15 @@ MonoBehaviour:
       firstValue: 250
       secondValue: 370
     rangeRadius: 9.8
-    fireRate: 8
+    fireRate: 4.8
     spread: 0.3
     power: 228
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1
   - price: 1000
     currencyType: 0
@@ -219,15 +219,15 @@ MonoBehaviour:
       firstValue: 275
       secondValue: 410
     rangeRadius: 9.8
-    fireRate: 8
+    fireRate: 4.8
     spread: 0.3
     power: 252
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1
   - price: 1200
     currencyType: 0
@@ -240,13 +240,13 @@ MonoBehaviour:
       firstValue: 300
       secondValue: 450
     rangeRadius: 10
-    fireRate: 9
+    fireRate: 5.4
     spread: 0.3
     power: 280
     bulletsPerShot:
       firstValue: 1
       secondValue: 1
     bulletSpeed:
-      firstValue: 40
-      secondValue: 40
+      firstValue: 10
+      secondValue: 10
     keyUpgradeNumber: -1

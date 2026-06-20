@@ -42,6 +42,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2268624743467301539}
+  - component: {fileID: 6940915658646817355}
+  - component: {fileID: 6496285307053071477}
   m_Layer: 0
   m_Name: Weapon 11
   m_TagString: Untagged
@@ -57,14 +59,71 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633796799086485903}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.233, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.155, y: 0.224, z: -0}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2853597446209959728}
   m_Father: {fileID: 4964487942982120888}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!33 &6940915658646817355
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4633796799086485903}
+  m_Mesh: {fileID: -6665423016091149560, guid: 5bba0b5a2d7556a4e832f739ed9db5f7, type: 3}
+--- !u!23 &6496285307053071477
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4633796799086485903}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 024937d84f1ebee449a082ef664f0aa2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6073236771426098921
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,23 +196,38 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.347
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.938
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
@@ -163,7 +237,7 @@ PrefabInstance:
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
@@ -178,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
         type: 3}
@@ -190,7 +264,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Weapon_11 Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7853586693960741118, guid: fce0400497be8db44bec942129e38cb6, type: 3}
+    - {fileID: 7590596702543902719, guid: fce0400497be8db44bec942129e38cb6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8177778653807106772, guid: fce0400497be8db44bec942129e38cb6,
@@ -326,6 +402,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2853597446209959728}
     m_Modifications:
+    - target: {fileID: 700320383171602196, guid: f20caca1d3c46ae4ead59c942585acca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4986790125738592933, guid: f20caca1d3c46ae4ead59c942585acca,
         type: 3}
       propertyPath: m_IsActive
@@ -404,7 +485,7 @@ PrefabInstance:
     - target: {fileID: 5977807008920101256, guid: f20caca1d3c46ae4ead59c942585acca,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5977807008939332134, guid: f20caca1d3c46ae4ead59c942585acca,
         type: 3}

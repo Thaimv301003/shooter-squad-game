@@ -416,7 +416,7 @@ MonoBehaviour:
   weaponsTransform: {fileID: 9223323684423222863}
   minigunHolderTransform: {fileID: 7232982542977915312}
   shootGunHolderTransform: {fileID: 4473405991651107879}
-  rocketHolderTransform: {fileID: 0}
+  rocketHolderTransform: {fileID: 682801144309499857}
   teslaHolderTransform: {fileID: 682801144309499857}
   rifleHolderTransform: {fileID: 1743244940189852195}
   sniperHolderTransform: {fileID: 2405111393294569572}
@@ -449,7 +449,7 @@ Transform:
   m_GameObject: {fileID: 5333619734857360763}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.168, y: 0.6735, z: 0.1635}
+  m_LocalPosition: {x: 0.135, y: 0.804, z: 0.1635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

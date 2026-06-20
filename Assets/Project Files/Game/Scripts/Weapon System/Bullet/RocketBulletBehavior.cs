@@ -10,7 +10,8 @@ namespace Watermelon.SquadShooter
         [SerializeField] string explosionDecalName = "Bomber Explosion Decal";
 
         [Header("Effects")]
-        [SerializeField] ParticleSystem trailParticleSystem;
+        [SerializeField] TrailRenderer[] trailRenderers;
+        [SerializeField] ParticleSystem[] trailParticleSystems;
 
         private int explosionParticleHash;
         private int explosionDecalHash;
@@ -26,10 +27,26 @@ namespace Watermelon.SquadShooter
             // Rocket disables on first hit, triggering explosion
             base.Init(damage, speed, currentTarget, autoDisableTime, autoDisableOnHit);
 
-            if (trailParticleSystem != null)
+            // Clear all trail renderers to prevent stretching from the pool spawn position
+            if (trailRenderers != null)
             {
-                trailParticleSystem.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-                trailParticleSystem.Play();
+                foreach (var trail in trailRenderers)
+                {
+                    if (trail != null) trail.Clear();
+                }
+            }
+
+            // Play all particle systems
+            if (trailParticleSystems != null)
+            {
+                foreach (var ps in trailParticleSystems)
+                {
+                    if (ps != null)
+                    {
+                        ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+                        ps.Play();
+                    }
+                }
             }
         }
 
@@ -85,10 +102,21 @@ namespace Watermelon.SquadShooter
                 }
             }
 
-            // 5. Clean up
-            if (trailParticleSystem != null)
+            // 5. Clean up trails and particles
+            if (trailRenderers != null)
             {
-                trailParticleSystem.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+                foreach (var trail in trailRenderers)
+                {
+                    if (trail != null) trail.Clear();
+                }
+            }
+
+            if (trailParticleSystems != null)
+            {
+                foreach (var ps in trailParticleSystems)
+                {
+                    if (ps != null) ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+                }
             }
 
             gameObject.SetActive(false);

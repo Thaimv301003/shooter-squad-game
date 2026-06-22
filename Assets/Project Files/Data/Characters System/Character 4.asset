@@ -15,14 +15,14 @@ MonoBehaviour:
   id: char_4_lucas
   characterName: Lucas
   requiredLevel: 7
-  previewSprite: {fileID: 21300000, guid: a5de68ec5515c4c4f9d15b47b8a8a358, type: 3}
-  lockedSprite: {fileID: 21300000, guid: 83962838e12590049bcd0591eecb995e, type: 3}
-  dropPrefab: {fileID: 6151500105127784057, guid: ccd21a8693e48ab49a431bbb7751bd6d,
+  previewSprite: {fileID: 21300000, guid: 875453057196049e896f8537ac421ed9, type: 3}
+  lockedSprite: {fileID: 21300000, guid: fc356df3b8e3f4e30b3cc49e1be74f54, type: 3}
+  dropPrefab: {fileID: 1207325780259152701, guid: ebc2594b64377f246a6e3571c5912592,
     type: 3}
   stages:
-  - previewSprite: {fileID: 21300000, guid: a5de68ec5515c4c4f9d15b47b8a8a358, type: 3}
-    lockedSprite: {fileID: 21300000, guid: 83962838e12590049bcd0591eecb995e, type: 3}
-    prefab: {fileID: 4845020985889000177, guid: 46ed7a58790bfba429a7f6bf4c4ffcab,
+  - previewSprite: {fileID: 21300000, guid: 875453057196049e896f8537ac421ed9, type: 3}
+    lockedSprite: {fileID: 21300000, guid: fc356df3b8e3f4e30b3cc49e1be74f54, type: 3}
+    prefab: {fileID: 2939012517444574418, guid: 1c8ad6a75094248d6ae1aca392e45a61,
       type: 3}
     healthBarOffset: {x: 0, y: 2.34375, z: 0}
   upgrades:

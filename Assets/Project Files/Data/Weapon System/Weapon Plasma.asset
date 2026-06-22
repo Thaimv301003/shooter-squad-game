@@ -61,7 +61,7 @@ MonoBehaviour:
       firstValue: 18.75
       secondValue: 28.125
     keyUpgradeNumber: -1
-  - price: 100
+  - price: 80
     currencyType: 0
     previewSprite: {fileID: 0}
     weaponPrefab: {fileID: 9070383134680671536, guid: 8fb848125c53f4df39df0dbcd8b63d8d,

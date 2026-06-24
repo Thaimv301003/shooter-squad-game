@@ -260,6 +260,16 @@ namespace Watermelon
                     if (bone.children.Count == 1)
                     {
                         BoneInfo childBone = (BoneInfo)bone.children[0];
+                        if (childBone.anchor == null)
+                        {
+                            Debug.LogError($"[RagdollUtils] Lỗi: Xương '{childBone.name}' bị thiếu hoặc chưa được map trong Avatar!");
+                            continue;
+                        }
+                        if (bone.anchor == null)
+                        {
+                            Debug.LogError($"[RagdollUtils] Lỗi: Xương '{bone.name}' bị thiếu hoặc chưa được map trong Avatar!");
+                            continue;
+                        }
                         Vector3 endPoint = childBone.anchor.position;
                         CalculateDirection(bone.anchor.InverseTransformPoint(endPoint), out direction, out distance);
                     }

@@ -237,10 +237,10 @@ MonoBehaviour:
     bulletPrefab: {fileID: 7995167561492624291, guid: 7da55dc6167c24a659cf60e9d9eab07d,
       type: 3}
     damage:
-      firstValue: 24
-      secondValue: 28
+      firstValue: 300
+      secondValue: 350
     rangeRadius: 6.25
-    fireRate: 3
+    fireRate: 5
     spread: 0
     power: 98
     bulletsPerShot:

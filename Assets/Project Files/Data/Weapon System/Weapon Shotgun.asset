@@ -22,7 +22,7 @@ MonoBehaviour:
   - price: 5
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -43,7 +43,7 @@ MonoBehaviour:
   - price: 5
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -64,7 +64,7 @@ MonoBehaviour:
   - price: 50
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -85,7 +85,7 @@ MonoBehaviour:
   - price: 70
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -106,7 +106,7 @@ MonoBehaviour:
   - price: 90
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -127,7 +127,7 @@ MonoBehaviour:
   - price: 120
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -148,7 +148,7 @@ MonoBehaviour:
   - price: 150
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -169,7 +169,7 @@ MonoBehaviour:
   - price: 180
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -190,7 +190,7 @@ MonoBehaviour:
   - price: 220
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -198,7 +198,7 @@ MonoBehaviour:
       firstValue: 15
       secondValue: 35
     rangeRadius: 10
-    fireRate: 1.40
+    fireRate: 1.4
     spread: 30
     power: 69
     bulletsPerShot:
@@ -211,7 +211,7 @@ MonoBehaviour:
   - price: 260
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}
@@ -232,7 +232,7 @@ MonoBehaviour:
   - price: 300
     currencyType: 0
     previewSprite: {fileID: 0}
-    weaponPrefab: {fileID: 6072244648897828653, guid: b2aea514e8cf14593af7b6f293e1e192,
+    weaponPrefab: {fileID: 6347890837037930244, guid: 02dfa9993dcad4937bfd23eafa3f2f8d,
       type: 3}
     bulletPrefab: {fileID: 7995167561492624291, guid: ef5f452bc7badaf4b9c9b86adda600c7,
       type: 3}

@@ -22,7 +22,7 @@ MonoBehaviour:
   stages:
   - previewSprite: {fileID: 21300000, guid: 02200322b8cad0f4ab1c5d3c0eb9a128, type: 3}
     lockedSprite: {fileID: 21300000, guid: d4321a8adb26e7c479f9dbaf87594f69, type: 3}
-    prefab: {fileID: 6148347664831866679, guid: bc55126d2c417d34995c7b8fe1069384,
+    prefab: {fileID: 9199063344137674020, guid: e76d6bda2633a40d9b61b135b604b5be,
       type: 3}
     healthBarOffset: {x: 0, y: 2.8125, z: 0}
   upgrades:

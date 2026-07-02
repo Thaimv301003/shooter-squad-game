@@ -15,5 +15,11 @@
 
         BossBomber = 100,
         BossSniper = 101,
+
+        //new enemy
+        NewEnemy1 = 15,
+        NewEnemy2 = 16,
+        NewEnemy3 = 17,
+
     }
 }

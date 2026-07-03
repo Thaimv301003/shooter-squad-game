@@ -17,7 +17,7 @@
         BossSniper = 101,
 
         //new enemy
-        NewEnemy1 = 15,
+        Rifle1 = 15,
         NewEnemy2 = 16,
         NewEnemy3 = 17,
 

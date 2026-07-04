@@ -20,6 +20,7 @@
         Rifle1 = 15,
         NewEnemy2 = 16,
         NewEnemy3 = 17,
+        Grenader1 = 18,
 
     }
 }

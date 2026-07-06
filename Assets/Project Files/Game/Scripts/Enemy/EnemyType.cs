@@ -21,6 +21,10 @@
         NewEnemy2 = 16,
         NewEnemy3 = 17,
         Grenader1 = 18,
+        Cowboy1 = 19,
+        Demo1 = 20,
+        Pistol1 = 21,
+        Shotguner1 = 22,
 
     }
 }

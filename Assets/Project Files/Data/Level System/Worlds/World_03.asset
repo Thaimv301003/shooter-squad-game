@@ -1671,20 +1671,20 @@ MonoBehaviour:
     rooms:
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
       enemyEntities:
-      - EnemyType: 2
-        Position: {x: 0, y: 0, z: 7.25}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints: []
-      - EnemyType: 4
+      - EnemyType: 17
         Position: {x: 0, y: 0, z: 0}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
         PathPoints: []
-      - EnemyType: 3
-        Position: {x: 0, y: 0, z: 4.09}
+      - EnemyType: 18
+        Position: {x: -1.64, y: 0, z: 2.27}
+        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+        Scale: {x: 1, y: 1, z: 1}
+        IsElite: 0
+        PathPoints: []
+      - EnemyType: 19
+        Position: {x: 1.71, y: 0, z: 2.71}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
@@ -1870,42 +1870,20 @@ MonoBehaviour:
       roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
       enemyEntities:
-      - EnemyType: 1
-        Position: {x: -6.25, y: 0, z: -3.515625}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints:
-        - {x: -3.90625, y: 0, z: -4.21875}
-        - {x: -7.8125, y: 0, z: -2.265625}
-        - {x: -8.203125, y: 0, z: 0.46875}
-      - EnemyType: 1
-        Position: {x: 7.8125, y: 0, z: 9.765625}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 1
-        PathPoints:
-        - {x: 7.8125, y: 0, z: 3.59375}
-        - {x: 7.8125, y: 0, z: 10.234375}
-        - {x: 1.953125, y: 0, z: 12.578125}
-      - EnemyType: 0
-        Position: {x: 7.421875, y: 0, z: -3.90625}
+      - EnemyType: 15
+        Position: {x: -2.11, y: 0, z: 0}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
         PathPoints: []
-      - EnemyType: 0
-        Position: {x: 3.125, y: 0, z: 4.296875}
+      - EnemyType: 20
+        Position: {x: 0, y: 0, z: 0}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
-        PathPoints:
-        - {x: 1.875, y: 0, z: 0.296875}
-        - {x: 3.4375, y: 0, z: 4.59375}
-        - {x: 0.3125, y: 0, z: 6.15625}
-        - {x: -5.546875, y: 0, z: 6.9375}
-      - EnemyType: 2
-        Position: {x: -5.859375, y: 0, z: 12.5}
+        PathPoints: []
+      - EnemyType: 21
+        Position: {x: 2.57, y: 0, z: -0}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
@@ -2159,45 +2137,14 @@ MonoBehaviour:
       roomCustomObjects: []
     - spawnPoint: {x: 0, y: 0, z: -11.71875}
       enemyEntities:
-      - EnemyType: 1
-        Position: {x: 4.6875, y: 0, z: -5.859375}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints:
-        - {x: 2.90625, y: 0, z: -5.421875}
-        - {x: 6.03125, y: 0, z: -4.640625}
-        - {x: 5.640625, y: 0, z: -0.34375}
-      - EnemyType: 2
-        Position: {x: -1.5625, y: 0, z: 0.390625}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints:
-        - {x: -5.46875, y: 0, z: -3.046875}
-        - {x: 1.5625, y: 0, z: 2.421875}
-      - EnemyType: 0
-        Position: {x: -5.46875, y: 0, z: 6.25}
+      - EnemyType: 16
+        Position: {x: 6.29, y: 0, z: -3.62}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0
         PathPoints: []
-      - EnemyType: 0
-        Position: {x: 5.078125, y: 0, z: 12.5}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints:
-        - {x: 5.984375, y: 0, z: 12.375}
-        - {x: -1.046875, y: 0, z: 12.765625}
-      - EnemyType: 2
-        Position: {x: 4.296875, y: 0, z: 5.859375}
-        Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-        Scale: {x: 1, y: 1, z: 1}
-        IsElite: 0
-        PathPoints: []
-      - EnemyType: 10
-        Position: {x: 0, y: 0, z: 11.28}
+      - EnemyType: 22
+        Position: {x: 2.34, y: 0, z: -6.75}
         Rotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
         Scale: {x: 1, y: 1, z: 1}
         IsElite: 0

@@ -43,6 +43,8 @@ namespace Watermelon.SquadShooter
             if (other.gameObject.layer == PhysicsHelper.LAYER_ENEMY)
             {
                 BaseEnemyBehavior baseEnemyBehavior = other.GetComponent<BaseEnemyBehavior>();
+                if (baseEnemyBehavior == null) baseEnemyBehavior = other.GetComponentInParent<BaseEnemyBehavior>();
+                
                 if (baseEnemyBehavior != null)
                 {
                     if (!baseEnemyBehavior.IsDead)

@@ -68,6 +68,8 @@ namespace Watermelon.SquadShooter
                 if (hitColliders[i].gameObject.layer == PhysicsHelper.LAYER_ENEMY)
                 {
                     BaseEnemyBehavior enemy = hitColliders[i].GetComponent<BaseEnemyBehavior>();
+                    if (enemy == null) enemy = hitColliders[i].GetComponentInParent<BaseEnemyBehavior>();
+                    
                     if (enemy != null && !enemy.IsDead)
                     {
                         float explosionDamageMultiplier = 1.0f - Mathf.InverseLerp(0, explosionRadius, Vector3.Distance(transform.position, hitColliders[i].transform.position));

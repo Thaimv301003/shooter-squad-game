@@ -20,15 +20,15 @@ namespace Watermelon.Enemy.BossMelee
                 new StateTransition<BossMeleeState>(PatrollingStateTransition)
             };
 
-            // 2. Following State (when target spotted but waiting for cooldown)
-            var followingStateCase = new StateCase();
-            followingStateCase.state = new BossMeleeFollowState(enemy);
-            followingStateCase.transitions = new List<StateTransition<BossMeleeState>>
+            // 2. Following & Attacking State (Chasing target and using Normal Attack)
+            var followingAttackStateCase = new StateCase();
+            followingAttackStateCase.state = new BossMeleeFollowAttackState(enemy);
+            followingAttackStateCase.transitions = new List<StateTransition<BossMeleeState>>
             {
-                new StateTransition<BossMeleeState>(FollowingStateTransition)
+                new StateTransition<BossMeleeState>(FollowingAttackStateTransition)
             };
 
-            // 3. Aiming State
+            // 3. Aiming Smash State (Ultimate charge up)
             var aimingStateCase = new StateCase();
             aimingStateCase.state = new BossMeleeAimingState(enemy);
             aimingStateCase.transitions = new List<StateTransition<BossMeleeState>>
@@ -36,18 +36,18 @@ namespace Watermelon.Enemy.BossMelee
                 new StateTransition<BossMeleeState>(AimingStateTransition)
             };
 
-            // 4. Charging State
-            var chargingStateCase = new StateCase();
-            chargingStateCase.state = new BossMeleeChargeState(enemy);
-            chargingStateCase.transitions = new List<StateTransition<BossMeleeState>>
+            // 4. Smashing State (Ultimate execution)
+            var smashingStateCase = new StateCase();
+            smashingStateCase.state = new BossMeleeSmashState(enemy);
+            smashingStateCase.transitions = new List<StateTransition<BossMeleeState>>
             {
-                new StateTransition<BossMeleeState>(ChargingStateTransition)
+                new StateTransition<BossMeleeState>(SmashingStateTransition)
             };
 
             states.Add(BossMeleeState.Patrolling, patrollingStateCase);
-            states.Add(BossMeleeState.Following, followingStateCase);
-            states.Add(BossMeleeState.AimingCharge, aimingStateCase);
-            states.Add(BossMeleeState.Charging, chargingStateCase);
+            states.Add(BossMeleeState.FollowingAttack, followingAttackStateCase);
+            states.Add(BossMeleeState.AimingSmash, aimingStateCase);
+            states.Add(BossMeleeState.Smashing, smashingStateCase);
         }
 
         private bool PatrollingStateTransition(out BossMeleeState nextState)
@@ -60,54 +60,54 @@ namespace Watermelon.Enemy.BossMelee
                 return false;
             }
 
-            if (enemy.CanCharge())
+            if (enemy.CanSmash())
             {
-                nextState = BossMeleeState.AimingCharge;
+                nextState = BossMeleeState.AimingSmash;
             }
             else
             {
-                nextState = BossMeleeState.Following;
+                nextState = BossMeleeState.FollowingAttack;
             }
             return true;
         }
 
-        private bool FollowingStateTransition(out BossMeleeState nextState)
+        private bool FollowingAttackStateTransition(out BossMeleeState nextState)
         {
-            if (enemy.CanCharge())
+            if (enemy.CanSmash())
             {
-                nextState = BossMeleeState.AimingCharge;
+                nextState = BossMeleeState.AimingSmash;
                 return true;
             }
 
-            nextState = BossMeleeState.Following;
+            nextState = BossMeleeState.FollowingAttack;
             return false;
         }
 
         private bool AimingStateTransition(out BossMeleeState nextState)
         {
-            var aimingState = (BossMeleeAimingState)states[BossMeleeState.AimingCharge].state;
+            var aimingState = (BossMeleeAimingState)states[BossMeleeState.AimingSmash].state;
 
             if (aimingState.IsAimingFinished())
             {
-                nextState = BossMeleeState.Charging;
+                nextState = BossMeleeState.Smashing;
                 return true;
             }
 
-            nextState = BossMeleeState.AimingCharge;
+            nextState = BossMeleeState.AimingSmash;
             return false;
         }
 
-        private bool ChargingStateTransition(out BossMeleeState nextState)
+        private bool SmashingStateTransition(out BossMeleeState nextState)
         {
-            var chargingState = (BossMeleeChargeState)states[BossMeleeState.Charging].state;
+            var smashingState = (BossMeleeSmashState)states[BossMeleeState.Smashing].state;
 
-            if (chargingState.IsChargeFinished())
+            if (smashingState.IsSmashFinished())
             {
-                nextState = BossMeleeState.Following;
+                nextState = BossMeleeState.FollowingAttack;
                 return true;
             }
 
-            nextState = BossMeleeState.Charging;
+            nextState = BossMeleeState.Smashing;
             return false;
         }
     }

@@ -56,7 +56,9 @@ public class CheatManager : MonoBehaviour
     private void OnGUI()
     {
         // Thiết lập phong cách cho nút bấm to và dễ nhìn
-        GUI.skin.button.fontSize = 14;
+        GUI.skin.button.fontSize = 24;
+        GUI.skin.box.fontSize = 24;
+        GUI.skin.label.fontSize = 24;
         
         // Khởi tạo chỉ số màn chơi từ file Save nếu chưa thiết lập
         var levelSave = SaveController.GetSaveObject<LevelSave>("level");
@@ -76,16 +78,16 @@ public class CheatManager : MonoBehaviour
         if (!showMenu) return;
 
         // Vẽ khung Cheat Menu ở góc trên bên trái, dịch xuống một chút để không đè lên nút Toggle
-        GUILayout.BeginArea(new Rect(15, 60, 230, 485));
-        GUILayout.Box("🔧 DEV CHEAT MENU", GUILayout.Width(220));
+        GUILayout.BeginArea(new Rect(25, 102, 391, 824));
+        GUILayout.Box("🔧 DEV CHEAT MENU", GUILayout.Width(374));
 
-        if (GUILayout.Button("💰 +1,000,000 Coins (Phím C)", GUILayout.Height(40), GUILayout.Width(220)))
+        if (GUILayout.Button("💰 +1,000,000 Coins (Phím C)", GUILayout.Height(68), GUILayout.Width(374)))
         {
             CurrencyController.Add(CurrencyType.Coins, 1000000);
             Debug.Log("👉 Cheat: Cộng 1,000,000 Coins thành công!");
         }
 
-        if (GUILayout.Button("🔫 +1,000 Thẻ Súng (Phím H)", GUILayout.Height(40), GUILayout.Width(220)))
+        if (GUILayout.Button("🔫 +1,000 Thẻ Súng (Phím H)", GUILayout.Height(68), GUILayout.Width(374)))
         {
             if (WeaponsController.Weapons != null)
             {
@@ -97,31 +99,31 @@ public class CheatManager : MonoBehaviour
             }
         }
 
-        if (GUILayout.Button("🔓 Unlock Toàn Bộ Súng (Phím V)", GUILayout.Height(40), GUILayout.Width(220)))
+        if (GUILayout.Button("🔓 Unlock Toàn Bộ Súng (Phím V)", GUILayout.Height(68), GUILayout.Width(374)))
         {
             WeaponsController.UnlockAllWeaponsDev();
             Debug.Log("👉 Cheat: Mở khóa tất cả súng thành công!");
         }
 
-        if (GUILayout.Button("⭐ Hack Cấp Độ 99 (Phím K)", GUILayout.Height(40), GUILayout.Width(220)))
+        if (GUILayout.Button("⭐ Hack Cấp Độ 99 (Phím K)", GUILayout.Height(68), GUILayout.Width(374)))
         {
             ExperienceController.SetLevelDev(99);
             Debug.Log("👉 Cheat: Đặt Level thành 99 thành công!");
         }
 
         // --- HỆ THỐNG CHỌN MÀN CHƠI (LEVEL SELECTION) ---
-        GUILayout.Space(10);
-        GUILayout.Box("🗺️ CHỌN MÀN CHƠI (LEVEL TEST)", GUILayout.Width(220));
+        GUILayout.Space(17);
+        GUILayout.Box("🗺️ CHỌN MÀN CHƠI (LEVEL TEST)", GUILayout.Width(374));
 
         // Dòng chọn World
         GUILayout.BeginHorizontal();
-        GUILayout.Label("World: " + (selectedWorldIndex + 1), GUILayout.Width(100));
-        if (GUILayout.Button("-", GUILayout.Width(55)))
+        GUILayout.Label("World: " + (selectedWorldIndex + 1), GUILayout.Width(170));
+        if (GUILayout.Button("-", GUILayout.Width(93)))
         {
             selectedWorldIndex = Mathf.Max(0, selectedWorldIndex - 1);
             selectedLevelIndex = 0;
         }
-        if (GUILayout.Button("+", GUILayout.Width(55)))
+        if (GUILayout.Button("+", GUILayout.Width(93)))
         {
             int maxWorlds = LevelController.LevelsDatabase != null ? LevelController.LevelsDatabase.GetWorldsAmount() : 1;
             selectedWorldIndex = Mathf.Min(maxWorlds - 1, selectedWorldIndex + 1);
@@ -131,12 +133,12 @@ public class CheatManager : MonoBehaviour
 
         // Dòng chọn Level
         GUILayout.BeginHorizontal();
-        GUILayout.Label("Level: " + (selectedLevelIndex + 1), GUILayout.Width(100));
-        if (GUILayout.Button("-", GUILayout.Width(55)))
+        GUILayout.Label("Level: " + (selectedLevelIndex + 1), GUILayout.Width(170));
+        if (GUILayout.Button("-", GUILayout.Width(93)))
         {
             selectedLevelIndex = Mathf.Max(0, selectedLevelIndex - 1);
         }
-        if (GUILayout.Button("+", GUILayout.Width(55)))
+        if (GUILayout.Button("+", GUILayout.Width(93)))
         {
             int maxLevels = 1;
             if (LevelController.LevelsDatabase != null)
@@ -152,7 +154,7 @@ public class CheatManager : MonoBehaviour
         GUILayout.EndHorizontal();
 
         // Nút Load Màn Chơi đã chọn
-        if (GUILayout.Button("🚀 LOAD LEVEL ĐÃ CHỌN", GUILayout.Height(35), GUILayout.Width(220)))
+        if (GUILayout.Button("🚀 LOAD LEVEL ĐÃ CHỌN", GUILayout.Height(59), GUILayout.Width(374)))
         {
             if (levelSave != null)
             {
@@ -167,8 +169,8 @@ public class CheatManager : MonoBehaviour
         }
 
         // --- NÚT RESET SAVE & RESTART GAME ---
-        GUILayout.Space(8);
-        if (GUILayout.Button("🔄 RESET SAVE & RESTART", GUILayout.Height(35), GUILayout.Width(220)))
+        GUILayout.Space(13);
+        if (GUILayout.Button("🔄 RESET SAVE & RESTART", GUILayout.Height(59), GUILayout.Width(374)))
         {
             SaveController.DeleteSaveFile();
             PlayerPrefs.DeleteAll();

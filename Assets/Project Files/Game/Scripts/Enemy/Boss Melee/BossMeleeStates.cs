@@ -4,20 +4,32 @@ using Watermelon.SquadShooter;
 namespace Watermelon.Enemy.BossMelee
 {
 
-
-    public class BossMeleeFollowState : StateBehavior<BossMeleeBehavior>
+    public class BossMeleeFollowAttackState : StateBehavior<BossMeleeBehavior>
     {
-        public BossMeleeFollowState(BossMeleeBehavior enemy) : base(enemy) { }
+        public BossMeleeFollowAttackState(BossMeleeBehavior enemy) : base(enemy) { }
 
         protected readonly int ANIMATOR_SPEED_HASH = Animator.StringToHash("Movement Speed");
+        
         private Vector3 cachedTargetPos;
+        private bool isSlowed = false;
+        private bool isAttacking = false;
 
         public override void OnStart()
         {
-            Target.IsWalking = false;
-            Target.NavMeshAgent.speed = Target.Stats.MoveSpeed;
             cachedTargetPos = Target.Target.position;
+
+            isSlowed = Target.IsWalking;
+            if (isSlowed)
+            {
+                Target.NavMeshAgent.speed = Target.Stats.PatrollingSpeed;
+            }
+            else
+            {
+                Target.NavMeshAgent.speed = Target.Stats.MoveSpeed;
+            }
+
             Target.MoveToPoint(cachedTargetPos);
+            isAttacking = false;
         }
 
         public override void OnUpdate()
@@ -28,11 +40,34 @@ namespace Watermelon.Enemy.BossMelee
                 Target.MoveToPoint(cachedTargetPos);
             }
 
-            Target.Animator.SetFloat(ANIMATOR_SPEED_HASH, Target.NavMeshAgent.velocity.magnitude / Target.NavMeshAgent.speed);
+            if (isSlowed && !Target.IsWalking)
+            {
+                Target.NavMeshAgent.speed = Target.Stats.MoveSpeed;
+            }
+            else if (!isSlowed && Target.IsWalking)
+            {
+                Target.NavMeshAgent.speed = Target.Stats.PatrollingSpeed;
+            }
+
+            Target.Animator.SetFloat(ANIMATOR_SPEED_HASH, Target.NavMeshAgent.velocity.magnitude / Target.NavMeshAgent.speed * (isSlowed ? Target.Stats.PatrollingMutliplier : 1f));
+
+            if (Target.IsTargetInAttackRange && !isAttacking && !CharacterBehaviour.IsDead)
+            {
+                isAttacking = true;
+                Target.Attack();
+                Target.OnAttackFinished += OnAttackFinished;
+            }
+        }
+
+        private void OnAttackFinished()
+        {
+            Target.OnAttackFinished -= OnAttackFinished;
+            isAttacking = false;
         }
 
         public override void OnEnd()
         {
+            Target.OnAttackFinished -= OnAttackFinished;
             Target.StopMoving();
         }
     }
@@ -54,7 +89,7 @@ namespace Watermelon.Enemy.BossMelee
         public override void OnUpdate()
         {
             aimTimer += Time.deltaTime;
-            // The StartCharge transition is handled by the State Machine checking this timer
+            // The StartSmash transition is handled by the State Machine checking this timer
         }
 
         public bool IsAimingFinished()
@@ -64,21 +99,21 @@ namespace Watermelon.Enemy.BossMelee
 
         public override void OnEnd()
         {
-            // End is handled when switching to Charge
+            // End is handled when switching to Smash
         }
     }
 
-    public class BossMeleeChargeState : StateBehavior<BossMeleeBehavior>
+    public class BossMeleeSmashState : StateBehavior<BossMeleeBehavior>
     {
-        public BossMeleeChargeState(BossMeleeBehavior enemy) : base(enemy) { }
+        public BossMeleeSmashState(BossMeleeBehavior enemy) : base(enemy) { }
 
-        private bool isChargeFinished = false;
+        private bool isSmashFinished = false;
 
         public override void OnStart()
         {
-            isChargeFinished = false;
-            Target.StartCharge();
-            Target.OnAttackFinished += OnChargeFinished;
+            isSmashFinished = false;
+            Target.StartSmash();
+            Target.OnAttackFinished += OnSmashFinished;
         }
 
         public override void OnUpdate()
@@ -86,27 +121,27 @@ namespace Watermelon.Enemy.BossMelee
             // Update logic is handled inside BossMeleeBehavior Coroutine
         }
 
-        private void OnChargeFinished()
+        private void OnSmashFinished()
         {
-            isChargeFinished = true;
+            isSmashFinished = true;
         }
 
-        public bool IsChargeFinished()
+        public bool IsSmashFinished()
         {
-            return isChargeFinished;
+            return isSmashFinished;
         }
 
         public override void OnEnd()
         {
-            Target.OnAttackFinished -= OnChargeFinished;
+            Target.OnAttackFinished -= OnSmashFinished;
         }
     }
 
     public enum BossMeleeState
     {
         Patrolling,
-        Following,
-        AimingCharge,
-        Charging
+        FollowingAttack,
+        AimingSmash,
+        Smashing
     }
 }

@@ -87,6 +87,8 @@ namespace Watermelon.SquadShooter
                 if (hitColliders[i].gameObject.layer == PhysicsHelper.LAYER_ENEMY)
                 {
                     BaseEnemyBehavior enemy = hitColliders[i].GetComponent<BaseEnemyBehavior>();
+                    if (enemy == null) enemy = hitColliders[i].GetComponentInParent<BaseEnemyBehavior>();
+                    
                     if (enemy != null && !enemy.IsDead)
                     {
                         // Calculate damage multiplier based on distance from the explosion center

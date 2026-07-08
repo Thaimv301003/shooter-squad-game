@@ -99,6 +99,8 @@ namespace Watermelon.SquadShooter
                 if (hit.collider.gameObject.layer == PhysicsHelper.LAYER_ENEMY)
                 {
                     BaseEnemyBehavior enemy = hit.collider.GetComponent<BaseEnemyBehavior>();
+                    if (enemy == null) enemy = hit.collider.GetComponentInParent<BaseEnemyBehavior>();
+
                     if (enemy != null && !enemy.IsDead)
                     {
                         // Deal damage to the enemy

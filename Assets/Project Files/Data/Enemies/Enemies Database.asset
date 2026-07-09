@@ -330,7 +330,7 @@ MonoBehaviour:
       targetRingSize: 1.1
       hitTextOffsetY: 2.75
       hitTextOffsetForward: 0.165
-    icon: {fileID: 2800000, guid: c948b0c60a8b3774e92e71c92ebbfa3e, type: 3}
+    icon: {fileID: 2800000, guid: 6311f161edc9f4e238068f0f5f7dd859, type: 3}
     iconTint: {r: 0.15686275, g: 0.15686275, b: 0.15686275, a: 0}
   - enemyType: 16
     prefab: {fileID: 5939714238598631221, guid: 46fbf53a098e74c659e84cc8cc1d1d8b,
@@ -388,10 +388,10 @@ MonoBehaviour:
       targetRingSize: 1
       hitTextOffsetY: 2.65
       hitTextOffsetForward: 0.1625
-    icon: {fileID: 2800000, guid: fc6145b23341e3c41ae517e25f10281d, type: 3}
+    icon: {fileID: 2800000, guid: ae2ef5db5b0aa429ab3e5a6d80a2d836, type: 3}
     iconTint: {r: 0, g: 0, b: 0, a: 0}
   - enemyType: 18
-    prefab: {fileID: 2816206852611366199, guid: d609e6b796ab945aebf7b855d6024502,
+    prefab: {fileID: 2816206852611366199, guid: e514aad686b5642d6b2f507ab7ee965a,
       type: 3}
     stats:
       hp: 360
@@ -417,7 +417,7 @@ MonoBehaviour:
       targetRingSize: 1.1
       hitTextOffsetY: 3.4
       hitTextOffsetForward: 0.17
-    icon: {fileID: 2800000, guid: 19f0d20fe23811e4aa1ba40f68c96357, type: 3}
+    icon: {fileID: 2800000, guid: 07b51faa6bafa45f9bd1c05cde70fb50, type: 3}
     iconTint: {r: 0, g: 0, b: 0, a: 0}
   - enemyType: 19
     prefab: {fileID: 4796623966293115903, guid: 4f5fe566a1e6d4c96b255b7bb166fd08,
@@ -446,7 +446,7 @@ MonoBehaviour:
       targetRingSize: 1.1
       hitTextOffsetY: 2.65625
       hitTextOffsetForward: 0.15625
-    icon: {fileID: 2800000, guid: b490b229868f22b4991da84e71580e79, type: 3}
+    icon: {fileID: 2800000, guid: c25732e62262345e2b8db2d855ea9970, type: 3}
     iconTint: {r: 0, g: 0, b: 0, a: 0}
   - enemyType: 20
     prefab: {fileID: 2816206852611366199, guid: acd670b5a22d141bea76da56ca61e82a,
